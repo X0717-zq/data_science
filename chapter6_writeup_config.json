@@ -1,8 +1,0 @@
-{
-  "output": "credit_card_fraud_10k_results/chapter6_supplement/chapter6_writeup",
-  "fpr_limit": 0.01,
-  "figure_dpi": 300,
-  "figure_font": "Microsoft YaHei",
-  "figure_formats": ["png", "pdf", "svg"],
-  "note": "Draft from frozen results; no model fitting or hyperparameter search."
-}
