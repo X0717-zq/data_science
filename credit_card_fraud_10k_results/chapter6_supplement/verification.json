@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "original_results_preserved": true,
+  "learning_jobs_verified": 225,
+  "frozen_nested_subsets_verified": true,
+  "learning_test_set_disjoint": true,
+  "full_size_validation_replay_matches": 45,
+  "learning_metrics_and_SD_recomputed": true,
+  "enriched_prediction_rows": 67140,
+  "error_occurrences": 828,
+  "representative_cases": 54,
+  "pooled_confusion_verified": true,
+  "mean_ROC_and_SD_verified": true,
+  "scope": "numerical and provenance checks; figure QA is recorded separately"
+}

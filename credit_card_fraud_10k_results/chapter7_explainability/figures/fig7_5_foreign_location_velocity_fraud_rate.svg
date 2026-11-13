@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="532.8pt" height="288pt" viewBox="0 0 532.8 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-12T21:02:30.475074</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 288 
+L 532.8 288 
+L 532.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 53.28 216 
+L 183.486742 216 
+L 183.486742 66.24 
+L 53.28 66.24 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m0f564ad319" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m0f564ad319" x="90.077557" y="216" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="90.077557" y="229.794688" transform="rotate(-0 90.077557 229.794688)">境外</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m0f564ad319" x="146.689184" y="216" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="146.689184" y="229.794688" transform="rotate(-0 146.689184 229.794688)">非境外</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="49.78" y="219.397344" transform="rotate(-0 49.78 219.397344)">0%</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="49.78" y="173.317344" transform="rotate(-0 49.78 173.317344)">2%</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="49.78" y="127.237344" transform="rotate(-0 49.78 127.237344)">4%</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: end" x="49.78" y="81.157344" transform="rotate(-0 49.78 81.157344)">6%</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="25.120156" y="141.12" transform="rotate(-90 25.120156 141.12)">观察欺诈率（欺诈笔数 / 该组交易数）</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 53.28 216 
+L 183.486742 216 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 74.792418 216 
+L 105.362697 216 
+L 105.362697 93.12 
+L 74.792418 93.12 
+z
+" clip-path="url(#p9da526ad98)" style="fill: #cc5a36"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 131.404045 216 
+L 161.974323 216 
+L 161.974323 205.316129 
+L 131.404045 205.316129 
+z
+" clip-path="url(#p9da526ad98)" style="fill: #247ba0"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(78.229839 73.947262)">5.33%</text>
+    <text style="font-size: 8.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(76.304761 86.473531)">28/525</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(134.841465 186.143392)">0.46%</text>
+    <text style="font-size: 8.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(129.524919 198.66966)">23/4,960</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="53.28" y="54.24" transform="rotate(-0 53.28 54.24)">a  境外交易标记</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 219.944629 216 
+L 350.151371 216 
+L 350.151371 66.24 
+L 219.944629 66.24 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_3">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m0f564ad319" x="256.742187" y="216" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="256.742187" y="229.794688" transform="rotate(-0 256.742187 229.794688)">不匹配</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m0f564ad319" x="313.353813" y="216" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="313.353813" y="229.794688" transform="rotate(-0 313.353813 229.794688)">匹配</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_5">
+     <g id="line2d_9"/>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_10"/>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_11"/>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_12"/>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 219.944629 216 
+L 350.151371 216 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 241.457047 216 
+L 272.027326 216 
+L 272.027326 118.165605 
+L 241.457047 118.165605 
+z
+" clip-path="url(#pc6c41c4452)" style="fill: #cc5a36"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 298.068674 216 
+L 328.638953 216 
+L 328.638953 201.755086 
+L 298.068674 201.755086 
+z
+" clip-path="url(#pc6c41c4452)" style="fill: #247ba0"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(244.894468 98.992868)">4.25%</text>
+    <text style="font-size: 8.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(242.96939 111.519136)">20/471</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(301.506095 182.582348)">0.62%</text>
+    <text style="font-size: 8.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(296.189548 195.108617)">31/5,014</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="219.944629" y="54.24" transform="rotate(-0 219.944629 54.24)">b  位置不匹配</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_10">
+    <path d="M 386.609258 216 
+L 516.816 216 
+L 516.816 66.24 
+L 386.609258 66.24 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_5">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m0f564ad319" x="423.406816" y="216" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="423.406816" y="229.794688" transform="rotate(-0 423.406816 229.794688)">&gt;3次</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m0f564ad319" x="480.018443" y="216" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="480.018443" y="229.794688" transform="rotate(-0 480.018443 229.794688)">≤3次</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_9">
+     <g id="line2d_15"/>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_16"/>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_17"/>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_18"/>
+    </g>
+   </g>
+   <g id="patch_11">
+    <path d="M 386.609258 216 
+L 516.816 216 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 408.121677 216 
+L 438.691955 216 
+L 438.691955 137.898305 
+L 408.121677 137.898305 
+z
+" clip-path="url(#p19aef7ef85)" style="fill: #cc5a36"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 464.733303 216 
+L 495.303582 216 
+L 495.303582 203.791437 
+L 464.733303 203.791437 
+z
+" clip-path="url(#p19aef7ef85)" style="fill: #247ba0"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(411.559097 118.725568)">3.39%</text>
+    <text style="font-size: 8.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(409.634019 131.251836)">26/767</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(468.170724 184.6187)">0.53%</text>
+    <text style="font-size: 8.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif" transform="translate(462.854177 197.144968)">25/4,718</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="386.609258" y="54.24" transform="rotate(-0 386.609258 54.24)">c  24小时交易次数</text>
+   </g>
+  </g>
+  <g id="text_21">
+   <text style="font-size: 12px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle" x="266.4" y="23.9925" transform="rotate(-0 266.4 23.9925)">境外、位置与交易频次欺诈率</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 7.1px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="53.28" y="253.44" transform="rotate(-0 53.28 253.44)">五轮测试并集按交易编号去重：5,485笔，其中欺诈51笔；柱上为比例及欺诈笔数/组内总数。</text>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 7.1px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: start" x="53.28" y="272.16" transform="rotate(-0 53.28 272.16)">3次为第一轮训练集四分位分界；各字段分别分组，不能跨面板相加。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9da526ad98">
+   <rect x="53.28" y="66.24" width="130.206742" height="149.76"/>
+  </clipPath>
+  <clipPath id="pc6c41c4452">
+   <rect x="219.944629" y="66.24" width="130.206742" height="149.76"/>
+  </clipPath>
+  <clipPath id="p19aef7ef85">
+   <rect x="386.609258" y="66.24" width="130.206742" height="149.76"/>
+  </clipPath>
+ </defs>
+</svg>

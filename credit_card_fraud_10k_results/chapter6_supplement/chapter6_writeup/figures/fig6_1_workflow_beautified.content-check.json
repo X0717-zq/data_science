@@ -1,0 +1,345 @@
+{
+  "content_match": "PASS: all 11 original text blocks preserved",
+  "content": [
+    {
+      "text": "低正例率数据与字段核验\n9,943条：94欺诈＋9,849正常；8个原始特征",
+      "retained": true
+    },
+    {
+      "text": "五轮分层留出（同轮九模型共用划分）\n70%训练 / 15%验证 / 15%测试；冻结行索引",
+      "retained": true
+    },
+    {
+      "text": "训练集\n6,960条 / 66正例\n拟合标准化与独热编码",
+      "retained": true
+    },
+    {
+      "text": "验证集\n1,491条 / 14正例\n仅应用训练所得变换",
+      "retained": true
+    },
+    {
+      "text": "测试集\n1,492条 / 14正例\n仅应用训练所得变换",
+      "retained": true
+    },
+    {
+      "text": "仅训练部分重采样\n或类别权重 / 无监督拟合\n九模型生成连续分数",
+      "retained": true
+    },
+    {
+      "text": "验证分数选择阈值\nF2最大；并列取较大阈值\n随后冻结阈值",
+      "retained": true
+    },
+    {
+      "text": "冻结模型与阈值\n计算测试指标与曲线\n导出逐笔TP/FP/TN/FN",
+      "retained": true
+    },
+    {
+      "text": "训练规模学习曲线：20%→100%\n仅使用嵌套训练子集与固定验证集\n9模型×5规模×5轮＝225次拟合",
+      "retained": true
+    },
+    {
+      "text": "五轮汇总与误差分析\n均值±样本SD\n结合原始交易核查FP/FN",
+      "retained": true
+    },
+    {
+      "text": "验证集与测试集不重采样；测试结果不回流至参数、特征或阈值选择",
+      "retained": true
+    }
+  ],
+  "workflow_edges": [
+    [
+      "data",
+      "holdout"
+    ],
+    [
+      "holdout",
+      "train"
+    ],
+    [
+      "holdout",
+      "validation"
+    ],
+    [
+      "holdout",
+      "test"
+    ],
+    [
+      "train",
+      "fit"
+    ],
+    [
+      "validation",
+      "threshold"
+    ],
+    [
+      "test",
+      "metrics"
+    ],
+    [
+      "fit",
+      "threshold"
+    ],
+    [
+      "threshold",
+      "metrics"
+    ],
+    [
+      "fit",
+      "learning"
+    ],
+    [
+      "metrics",
+      "summary"
+    ]
+  ],
+  "source_script_sha256": "58fc2dfb42ae45071fa5c1c00fba997665e055516ef7ca76e7faf9a793bdc1bc",
+  "export_dimensions_pt": [
+    612,
+    452
+  ],
+  "png_dpi": 400,
+  "minimum_font_pt": 9.2,
+  "node_geometry": [
+    {
+      "id": "data",
+      "rect_pt": [
+        100,
+        23,
+        488,
+        34
+      ]
+    },
+    {
+      "id": "holdout",
+      "rect_pt": [
+        100,
+        69,
+        488,
+        34
+      ]
+    },
+    {
+      "id": "train",
+      "rect_pt": [
+        100,
+        145,
+        148,
+        54
+      ]
+    },
+    {
+      "id": "validation",
+      "rect_pt": [
+        270,
+        145,
+        148,
+        54
+      ]
+    },
+    {
+      "id": "test",
+      "rect_pt": [
+        440,
+        145,
+        148,
+        54
+      ]
+    },
+    {
+      "id": "fit",
+      "rect_pt": [
+        100,
+        242,
+        148,
+        59
+      ]
+    },
+    {
+      "id": "threshold",
+      "rect_pt": [
+        270,
+        242,
+        148,
+        59
+      ]
+    },
+    {
+      "id": "metrics",
+      "rect_pt": [
+        440,
+        242,
+        148,
+        59
+      ]
+    },
+    {
+      "id": "learning",
+      "rect_pt": [
+        100,
+        349,
+        295,
+        54
+      ]
+    },
+    {
+      "id": "summary",
+      "rect_pt": [
+        417,
+        349,
+        171,
+        54
+      ]
+    }
+  ],
+  "text_clearance": [
+    {
+      "node": "data",
+      "text": "低正例率数据与字段核验",
+      "minimum_padding_pt": 3.49
+    },
+    {
+      "node": "data",
+      "text": "9,943条：94欺诈＋9,849正常；8个原始特征",
+      "minimum_padding_pt": 3.49
+    },
+    {
+      "node": "holdout",
+      "text": "五轮分层留出（同轮九模型共用划分）",
+      "minimum_padding_pt": 3.49
+    },
+    {
+      "node": "holdout",
+      "text": "70%训练 / 15%验证 / 15%测试；冻结行索引",
+      "minimum_padding_pt": 3.49
+    },
+    {
+      "node": "train",
+      "text": "训练集",
+      "minimum_padding_pt": 5.74
+    },
+    {
+      "node": "train",
+      "text": "6,960条 / 66正例",
+      "minimum_padding_pt": 21.24
+    },
+    {
+      "node": "train",
+      "text": "拟合标准化与独热编码",
+      "minimum_padding_pt": 5.74
+    },
+    {
+      "node": "validation",
+      "text": "验证集",
+      "minimum_padding_pt": 5.74
+    },
+    {
+      "node": "validation",
+      "text": "1,491条 / 14正例",
+      "minimum_padding_pt": 21.24
+    },
+    {
+      "node": "validation",
+      "text": "仅应用训练所得变换",
+      "minimum_padding_pt": 5.74
+    },
+    {
+      "node": "test",
+      "text": "测试集",
+      "minimum_padding_pt": 5.74
+    },
+    {
+      "node": "test",
+      "text": "1,492条 / 14正例",
+      "minimum_padding_pt": 21.24
+    },
+    {
+      "node": "test",
+      "text": "仅应用训练所得变换",
+      "minimum_padding_pt": 5.74
+    },
+    {
+      "node": "fit",
+      "text": "仅训练部分重采样",
+      "minimum_padding_pt": 8.24
+    },
+    {
+      "node": "fit",
+      "text": "或类别权重 / 无监督拟合",
+      "minimum_padding_pt": 18.965
+    },
+    {
+      "node": "fit",
+      "text": "九模型生成连续分数",
+      "minimum_padding_pt": 8.24
+    },
+    {
+      "node": "threshold",
+      "text": "验证分数选择阈值",
+      "minimum_padding_pt": 8.24
+    },
+    {
+      "node": "threshold",
+      "text": "F2最大；并列取较大阈值",
+      "minimum_padding_pt": 18.47
+    },
+    {
+      "node": "threshold",
+      "text": "随后冻结阈值",
+      "minimum_padding_pt": 8.24
+    },
+    {
+      "node": "metrics",
+      "text": "冻结模型与阈值",
+      "minimum_padding_pt": 8.24
+    },
+    {
+      "node": "metrics",
+      "text": "计算测试指标与曲线",
+      "minimum_padding_pt": 23.74
+    },
+    {
+      "node": "metrics",
+      "text": "导出逐笔TP/FP/TN/FN",
+      "minimum_padding_pt": 8.24
+    },
+    {
+      "node": "learning",
+      "text": "训练规模学习曲线：20%→100%",
+      "minimum_padding_pt": 5.74
+    },
+    {
+      "node": "learning",
+      "text": "仅使用嵌套训练子集与固定验证集",
+      "minimum_padding_pt": 21.24
+    },
+    {
+      "node": "learning",
+      "text": "9模型×5规模×5轮＝225次拟合",
+      "minimum_padding_pt": 5.74
+    },
+    {
+      "node": "summary",
+      "text": "五轮汇总与误差分析",
+      "minimum_padding_pt": 5.74
+    },
+    {
+      "node": "summary",
+      "text": "均值±样本SD",
+      "minimum_padding_pt": 21.24
+    },
+    {
+      "node": "summary",
+      "text": "结合原始交易核查FP/FN",
+      "minimum_padding_pt": 5.74
+    },
+    {
+      "node": "footer",
+      "text": "验证集与测试集不重采样；测试结果不回流至参数、特征或阈值选择",
+      "minimum_padding_pt": 5.657
+    }
+  ],
+  "grid_check": "PASS: equal three-column widths, heights, and gutters",
+  "content_authority": "User reference image 1 and the existing flowchart() source",
+  "style_reference": "User reference image 2; pastel bands and dashed group boundaries only",
+  "excluded_data": "None; this redraw does not fit models or modify observations"
+}

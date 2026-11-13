@@ -1,0 +1,104 @@
+{
+  "all_five_figures_viewed": true,
+  "total_panels_reviewed": 31,
+  "automated_collision_and_font_checks_passed": true,
+  "notes": [
+    "PNG is the 300 dpi report preview; PDF and SVG are the primary scalable exports. TIFF was not requested.",
+    "Static source DPI warning is due to configuration lookup; actual PNG resolution was verified above.",
+    "Heatmap annotations intentionally overlay the cell background.",
+    "Learning-band clipping to [0,1] is display-only; full SD remains in the source CSV.",
+    "No data rows or methods omitted."
+  ],
+  "figures": [
+    {
+      "figure": "roc_curves_mean_and_low_fpr",
+      "panels_reviewed": 2,
+      "visual_review_passed": true,
+      "labels_clipped": false,
+      "uncertainty": "five-round sample SD; raw five-round dots for error-rate panels; row-normalized pooled counts for confusion",
+      "intentional_overlays": "none",
+      "png_pixels": [
+        2160,
+        1275
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "alignment_report": "roc_curves_mean_and_low_fpr.alignment.json",
+      "collision_report": "roc_curves_mean_and_low_fpr.collision-audit.json"
+    },
+    {
+      "figure": "roc_curves_by_model",
+      "panels_reviewed": 9,
+      "visual_review_passed": true,
+      "labels_clipped": false,
+      "uncertainty": "five-round sample SD; raw five-round dots for error-rate panels; row-normalized pooled counts for confusion",
+      "intentional_overlays": "none",
+      "png_pixels": [
+        2160,
+        2340
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "alignment_report": "roc_curves_by_model.alignment.json",
+      "collision_report": "roc_curves_by_model.collision-audit.json"
+    },
+    {
+      "figure": "confusion_matrices_nine_models",
+      "panels_reviewed": 9,
+      "visual_review_passed": true,
+      "labels_clipped": false,
+      "uncertainty": "five-round sample SD; raw five-round dots for error-rate panels; row-normalized pooled counts for confusion",
+      "intentional_overlays": "Counts and percentages centered inside heatmap cells",
+      "png_pixels": [
+        2160,
+        2280
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "alignment_report": "confusion_matrices_nine_models.alignment.json",
+      "collision_report": "confusion_matrices_nine_models.collision-audit.json"
+    },
+    {
+      "figure": "fp_fn_error_rates",
+      "panels_reviewed": 2,
+      "visual_review_passed": true,
+      "labels_clipped": false,
+      "uncertainty": "five-round sample SD; raw five-round dots for error-rate panels; row-normalized pooled counts for confusion",
+      "intentional_overlays": "none",
+      "png_pixels": [
+        2160,
+        1320
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "alignment_report": "fp_fn_error_rates.alignment.json",
+      "collision_report": "fp_fn_error_rates.collision-audit.json"
+    },
+    {
+      "figure": "learning_curves_pr_auc",
+      "panels_reviewed": 9,
+      "visual_review_passed": true,
+      "labels_clipped": false,
+      "uncertainty": "five-round sample SD; raw five-round dots for error-rate panels; row-normalized pooled counts for confusion",
+      "intentional_overlays": "none",
+      "png_pixels": [
+        2160,
+        2220
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "alignment_report": "learning_curves_pr_auc.alignment.json",
+      "collision_report": "learning_curves_pr_auc.collision-audit.json"
+    }
+  ]
+}

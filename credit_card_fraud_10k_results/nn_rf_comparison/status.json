@@ -1,0 +1,9 @@
+{
+  "phase": "completed",
+  "completed": 35,
+  "expected": 35,
+  "test_scoring_started": true,
+  "nn_prediction_rows": 52220,
+  "original_results_preserved": true,
+  "completed_utc": "2026-11-11T12:39:25.266564+00:00"
+}

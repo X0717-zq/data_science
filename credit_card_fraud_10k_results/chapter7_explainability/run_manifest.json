@@ -1,0 +1,102 @@
+{
+  "created_utc": "2026-11-12T11:52:26.714763+00:00",
+  "source_hashes": {
+    "credit_card_fraud_10k_results/accuracy_counterexample.json": "fb1bbe4df756931b24aea2828c5df1c6a77a305d70f125043b2d79fe9273df15",
+    "credit_card_fraud_10k_results/experiment_plan.json": "4e38a5d910154d92060cb1b90969b96f3bdd0483dcea05721ddcd5aff5b2612e",
+    "credit_card_fraud_10k_results/fraudulent_card_under_1pct.csv": "b21353e6c9690a268ba1021c7df4404c9f243fe0f88749725a6f5450857c75bc",
+    "credit_card_fraud_10k_results/metrics_by_round.csv": "9f53ff1b1044a73612af23b71587d08d68c106144a52020573b03587f1bde884",
+    "credit_card_fraud_10k_results/metrics_by_round_partial.csv": "9f53ff1b1044a73612af23b71587d08d68c106144a52020573b03587f1bde884",
+    "credit_card_fraud_10k_results/pr_auc_comparison.png": "1e784c2e86c005f0bce7706c74cdaea60562d03000bdf9e5e94b06e596ae65bc",
+    "credit_card_fraud_10k_results/pr_curves_family_mean.png": "48f7abb743b1d7bc5492c9667a823c7c628bdee1837693b95a14837edd5063f5",
+    "credit_card_fraud_10k_results/pr_curve_family_mean_std.csv": "b55de97faba7c06a5d38f017df1ac4ac1a69d823246a2c2e25d505796b2319cc",
+    "credit_card_fraud_10k_results/pr_curve_points_by_round.csv": "3666b558aed2d243087d5ed2e552c77dac9b2908a78dfad8252372f1417d9436",
+    "credit_card_fraud_10k_results/report_中文.md": "d13089df465d27c6ec1473db227d92a1749d9a8515077b4d5c4ae1b59aeaa9ee",
+    "credit_card_fraud_10k_results/split_counts.csv": "efc92b4af8f08ee3b70ac6fb504ce4af16a1745a7cfecdb93c3c2dc9b5f84371",
+    "credit_card_fraud_10k_results/summary_mean_std.csv": "1cfba3645271028fa4de7324aaff84c0df00ae44c764c36bf9ecaff2d485a5de",
+    "credit_card_fraud_10k_results/test_predictions_by_round.csv": "02c7521ebcc4eba2d7894cc8ab268ba621ed2c490b6f9fd63d819c19b94489cc",
+    "credit_card_fraud_10k_experiment.py": "3f8a048ccc70100278f2e2851c377a0cd6d928bca89395cebc41b64a15f804f5",
+    "fraudulent_card.csv": "987586d88d7f94a077aa4b5d19d42116889969d2425d727e9f62e89e992ffc95",
+    "chapter6_supplement_config.json": "5046cddd1de84c172459f2ef9b866623fb357c7571854704d32832425cb68d8c"
+  },
+  "frozen_split_hashes": {
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_01\\train_indices.csv": "a7df169a0cf279816850f5575ddb17906559449d5f3b4571ca63e3acd9e859b1",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_01\\validation_indices.csv": "c4c296acabb1a062bd95d60849cfac94923d02841748cb35aa6bf9d63ddf4952",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_01\\test_indices.csv": "cc432ff65f5c45474c6fe0e65a7ba66f198cf8bac9fb327b73e3c287d016e9ca",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_02\\train_indices.csv": "46fd78faa488dff543efaf1e5c1819ea70db7d29d167ebb49fd171de4cfeb782",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_02\\validation_indices.csv": "516ff463abd9d89df8a5525613624f0ec3622133a235842535a6adb8a247df79",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_02\\test_indices.csv": "beab9b9ee1b87d13c1a2bf8fc9e393992fa50dce196114de22c1e3216d70a1c1",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_03\\train_indices.csv": "0b1f957ebf4e36fa85d945d7d0fb96f81760be88201eee18a045f2037f981d1d",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_03\\validation_indices.csv": "0d903f300a404de11bfd689dd58c84fae9fb9cacaed6e9fe5fa1d00dfaf9691f",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_03\\test_indices.csv": "02a85c1aa529ae1b1e86e6da1d4f2838b2012dd4c11e97f8cdb0c00362427b13",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_04\\train_indices.csv": "a24409070505d5876c2b31d017c2d8ac56a06f3e14bde4e14a205a7439b6c788",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_04\\validation_indices.csv": "f2c8c77403c74d91f15f67a133036d4f165ae0a8ac7b83ebe5db586996e8690e",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_04\\test_indices.csv": "cec1a42b4d0c35bd3edefecf29ef8a386fca7aa91bbea5bf73033985ef9ebf8c",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_05\\train_indices.csv": "a009efc8fc1c43f232d010acf9a97f277c83d70be94fcbb0c2cf980febbc34f3",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_05\\validation_indices.csv": "315222258e8a67a77454805d7b2be023899cec5ea0ed0dbbf830a9e0a674d450",
+    "credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\round_05\\test_indices.csv": "342c666e59fe310be57724305c47c796e73a328f69cc921d8d0ef2de37a91f12"
+  },
+  "configuration": {
+    "source_results": "credit_card_fraud_10k_results",
+    "dataset": "fraudulent_card.csv",
+    "reference_script": "credit_card_fraud_10k_experiment.py",
+    "frozen_splits": "credit_card_fraud_10k_results/chapter6_supplement/learning_curves",
+    "source_manifest": "credit_card_fraud_10k_results/chapter6_supplement/source_manifest.json",
+    "output": "credit_card_fraud_10k_results/chapter7_explainability",
+    "model": {
+      "n_estimators": 120,
+      "criterion": "gini",
+      "max_depth": null,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "bootstrap": true,
+      "class_weight": null,
+      "n_jobs": 1
+    },
+    "permutation": {
+      "repeats_per_feature_per_round": 30,
+      "seed_offset": 7000,
+      "scoring": "trapezoidal_PR_AUC",
+      "unit": "raw_feature_group",
+      "partition": "test"
+    },
+    "shap": {
+      "feature_perturbation": "tree_path_dependent",
+      "model_output": "raw",
+      "positive_class": 1,
+      "approximate": false,
+      "aggregate_category": "signed_sum_before_absolute_value"
+    },
+    "local_cases": [
+      {
+        "repeat": 5,
+        "transaction_id": 3103,
+        "expected_outcome": "FP"
+      },
+      {
+        "repeat": 3,
+        "transaction_id": 656,
+        "expected_outcome": "FN"
+      }
+    ],
+    "figure": {
+      "font": "Microsoft YaHei",
+      "dpi": 300,
+      "formats": [
+        "png",
+        "pdf",
+        "svg"
+      ],
+      "seed": 20261112
+    },
+    "protocol_note": "Explanatory replay only. Reuse all five exact frozen partitions and original RF parameters; verify scores before explanation. No tuning, feature deletion, threshold revision or new performance claim from test explanations."
+  },
+  "versions": {
+    "python": "3.10.11",
+    "sklearn": "1.7.2",
+    "shap": "0.49.1",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3"
+  },
+  "code_sha256": "a28ca1b12d023858cb453c34d5138cfb495621cafb7ba9de6fa6003dc5160f5e"
+}

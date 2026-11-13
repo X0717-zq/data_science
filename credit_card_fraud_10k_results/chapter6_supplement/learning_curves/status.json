@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-11-10T12:23:37.129600+00:00",
+  "completed_utc": "2026-11-10T12:27:06.808808+00:00",
+  "expected_jobs": 225,
+  "successful_jobs": 225,
+  "failed_jobs": 0,
+  "test_used": false,
+  "full_size_validation_replay_mismatches": 0,
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "imbalanced-learn": "0.14.2",
+    "matplotlib": "3.10.9"
+  },
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0"
+}

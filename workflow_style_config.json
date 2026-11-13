@@ -1,0 +1,34 @@
+{
+  "output_stem": "credit_card_fraud_10k_results/chapter6_supplement/chapter6_writeup/figures/fig6_1_workflow_beautified",
+  "original_script": "build_chapter6_writeup.py",
+  "width_pt": 612,
+  "height_pt": 452,
+  "dpi": 400,
+  "font": "Microsoft YaHei",
+  "font_size": 10.0,
+  "heading_size": 10.8,
+  "section_size": 12.0,
+  "footer_size": 9.2,
+  "line_spacing_pt": 15.5,
+  "text_color": "#20252B",
+  "arrow_color": "#65717A",
+  "groups": [
+    {"id": "prepare", "label": "数据准备", "rect": [12, 12, 588, 101], "fill": "#F3EFF9", "border": "#9C91AC", "node_fill": "#FCFAFF", "node_border": "#8B809D"},
+    {"id": "split", "label": "数据划分", "rect": [12, 133, 588, 77], "fill": "#FFF7DE", "border": "#B6A77C", "node_fill": "#FFFCF3", "node_border": "#AD9E75"},
+    {"id": "evaluate", "label": "训练评估", "rect": [12, 230, 588, 83], "fill": "#EAF4EE", "border": "#8EA69A", "node_fill": "#F8FCF9", "node_border": "#81998C"},
+    {"id": "report", "label": "汇总分析", "rect": [12, 337, 588, 77], "fill": "#E2F0F2", "border": "#89A5AA", "node_fill": "#F4FAFB", "node_border": "#78979D"}
+  ],
+  "nodes": [
+    {"id": "data", "group": "prepare", "rect": [100, 23, 488, 34], "lines": ["低正例率数据与字段核验", "9,943条：94欺诈＋9,849正常；8个原始特征"]},
+    {"id": "holdout", "group": "prepare", "rect": [100, 69, 488, 34], "lines": ["五轮分层留出（同轮九模型共用划分）", "70%训练 / 15%验证 / 15%测试；冻结行索引"]},
+    {"id": "train", "group": "split", "rect": [100, 145, 148, 54], "lines": ["训练集", "6,960条 / 66正例", "拟合标准化与独热编码"]},
+    {"id": "validation", "group": "split", "rect": [270, 145, 148, 54], "lines": ["验证集", "1,491条 / 14正例", "仅应用训练所得变换"]},
+    {"id": "test", "group": "split", "rect": [440, 145, 148, 54], "lines": ["测试集", "1,492条 / 14正例", "仅应用训练所得变换"]},
+    {"id": "fit", "group": "evaluate", "rect": [100, 242, 148, 59], "lines": ["仅训练部分重采样", "或类别权重 / 无监督拟合", "九模型生成连续分数"]},
+    {"id": "threshold", "group": "evaluate", "rect": [270, 242, 148, 59], "lines": ["验证分数选择阈值", "F2最大；并列取较大阈值", "随后冻结阈值"]},
+    {"id": "metrics", "group": "evaluate", "rect": [440, 242, 148, 59], "lines": ["冻结模型与阈值", "计算测试指标与曲线", "导出逐笔TP/FP/TN/FN"]},
+    {"id": "learning", "group": "report", "rect": [100, 349, 295, 54], "lines": ["训练规模学习曲线：20%→100%", "仅使用嵌套训练子集与固定验证集", "9模型×5规模×5轮＝225次拟合"]},
+    {"id": "summary", "group": "report", "rect": [417, 349, 171, 54], "lines": ["五轮汇总与误差分析", "均值±样本SD", "结合原始交易核查FP/FN"]}
+  ],
+  "footer": "验证集与测试集不重采样；测试结果不回流至参数、特征或阈值选择"
+}

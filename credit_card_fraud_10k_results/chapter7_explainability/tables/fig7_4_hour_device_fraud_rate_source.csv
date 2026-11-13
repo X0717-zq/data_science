@@ -1,0 +1,5 @@
+﻿figure,group,feature_cn,unique_transactions,fraud,normal,fraud_rate,display_label
+fig7_4_hour_device_fraud_rate,≤6时,交易时段,1540,42,1498,0.02727272727272727,0—6时
+fig7_4_hour_device_fraud_rate,>6时,交易时段,3945,9,3936,0.0022813688212927757,7—23时
+fig7_4_hour_device_fraud_rate,≤44,设备信任评分,1430,45,1385,0.03146853146853147,≤44分
+fig7_4_hour_device_fraud_rate,>44,设备信任评分,4055,6,4049,0.0014796547472256474,>44分

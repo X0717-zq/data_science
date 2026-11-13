@@ -1,0 +1,126 @@
+{
+  "created_utc": "2026-11-11T12:31:44.054384+00:00",
+  "source_hashes": {
+    "C:\\Users\\86132\\Desktop\\026\\data_science\\test_card_fraud\\credit_card_fraud_10k_revised_bundle\\run_nn_rf_comparison.py": "33a60084b54979db4f07571dda4e073f24820de954310d4b28856e250227d331",
+    "C:\\Users\\86132\\Desktop\\026\\data_science\\test_card_fraud\\credit_card_fraud_10k_revised_bundle\\nn_comparison_config.json": "edaf8d91f2492990d34b48d0e635f1790abe2b620bf99c259c9f61ccec667f91",
+    "C:\\Users\\86132\\Desktop\\026\\data_science\\test_card_fraud\\credit_card_fraud_10k_revised_bundle\\credit_card_fraud_10k_results\\chapter6_supplement\\learning_curves\\frozen_training_subsets.json": "cf5d0883d74001a96e171bca6fd832fbd2c076c500c2fee2dd12ab04ebd87664",
+    "C:\\Users\\86132\\Desktop\\026\\data_science\\test_card_fraud\\credit_card_fraud_10k_revised_bundle\\fraudulent_card.csv": "987586d88d7f94a077aa4b5d19d42116889969d2425d727e9f62e89e992ffc95",
+    "C:\\Users\\86132\\Desktop\\026\\data_science\\test_card_fraud\\credit_card_fraud_10k_revised_bundle\\credit_card_fraud_10k_experiment.py": "3f8a048ccc70100278f2e2851c377a0cd6d928bca89395cebc41b64a15f804f5",
+    "C:\\Users\\86132\\Desktop\\026\\data_science\\test_card_fraud\\credit_card_fraud_10k_revised_bundle\\credit_card_fraud_10k_results\\metrics_by_round.csv": "9f53ff1b1044a73612af23b71587d08d68c106144a52020573b03587f1bde884",
+    "C:\\Users\\86132\\Desktop\\026\\data_science\\test_card_fraud\\credit_card_fraud_10k_revised_bundle\\credit_card_fraud_10k_results\\test_predictions_by_round.csv": "02c7521ebcc4eba2d7894cc8ab268ba621ed2c490b6f9fd63d819c19b94489cc"
+  },
+  "frozen_partitions": {
+    "round_01/train_indices.csv": "a7df169a0cf279816850f5575ddb17906559449d5f3b4571ca63e3acd9e859b1",
+    "round_01/validation_indices.csv": "c4c296acabb1a062bd95d60849cfac94923d02841748cb35aa6bf9d63ddf4952",
+    "round_01/test_indices.csv": "cc432ff65f5c45474c6fe0e65a7ba66f198cf8bac9fb327b73e3c287d016e9ca",
+    "round_01/fraction_020_indices.csv": "7fbaa0167a1e203314ae31ed40751a4b33281c062297420a7f5885b3d70ff3c8",
+    "round_01/fraction_040_indices.csv": "65a0c1944baac0e723600c106a402f020e4e45a282f94480b0560a6ce1a7383c",
+    "round_01/fraction_060_indices.csv": "f709f3f41fbe6488bcebeb79f16f98f77809302154be927e4b29739e34d67fe7",
+    "round_01/fraction_080_indices.csv": "49b9b1a09e04ba42c7ea9537fe3c4fdf9078121a73e99954a69cce5da44f8882",
+    "round_01/fraction_100_indices.csv": "a7df169a0cf279816850f5575ddb17906559449d5f3b4571ca63e3acd9e859b1",
+    "round_02/train_indices.csv": "46fd78faa488dff543efaf1e5c1819ea70db7d29d167ebb49fd171de4cfeb782",
+    "round_02/validation_indices.csv": "516ff463abd9d89df8a5525613624f0ec3622133a235842535a6adb8a247df79",
+    "round_02/test_indices.csv": "beab9b9ee1b87d13c1a2bf8fc9e393992fa50dce196114de22c1e3216d70a1c1",
+    "round_02/fraction_020_indices.csv": "577219830fe3613c0bbdf463e4b3e28690944d07018b4e5893a0bda10d7ede09",
+    "round_02/fraction_040_indices.csv": "686e2472fc76d96a98947de2be9fb24ec7eaeb411436e619c7de6b34d8c5f3e7",
+    "round_02/fraction_060_indices.csv": "11aed39fe68d123bf87032f076e1430003e4dbc3cc3788fdb958f6165fb17610",
+    "round_02/fraction_080_indices.csv": "5bf49aeb70bd768555b7fea8316fe05d1c80ad2deb8ec242b9f57e42f9e5ad04",
+    "round_02/fraction_100_indices.csv": "46fd78faa488dff543efaf1e5c1819ea70db7d29d167ebb49fd171de4cfeb782",
+    "round_03/train_indices.csv": "0b1f957ebf4e36fa85d945d7d0fb96f81760be88201eee18a045f2037f981d1d",
+    "round_03/validation_indices.csv": "0d903f300a404de11bfd689dd58c84fae9fb9cacaed6e9fe5fa1d00dfaf9691f",
+    "round_03/test_indices.csv": "02a85c1aa529ae1b1e86e6da1d4f2838b2012dd4c11e97f8cdb0c00362427b13",
+    "round_03/fraction_020_indices.csv": "388f548a76514d5ba8763d67addceb46010d6654e601a6c318f31acb565e824b",
+    "round_03/fraction_040_indices.csv": "c5d695c980b8b6556e0a3c43407f2dd773154443f13fb18aa7222d147f3e4c2e",
+    "round_03/fraction_060_indices.csv": "4ad916c0b2479d32a097ba0dd6cff48801f4f8fa7ed9839eb90efb9484a1e7ba",
+    "round_03/fraction_080_indices.csv": "41ac430de1e3c7c576f67c5300b47374900c0d594865f77b685fc375201a7405",
+    "round_03/fraction_100_indices.csv": "0b1f957ebf4e36fa85d945d7d0fb96f81760be88201eee18a045f2037f981d1d",
+    "round_04/train_indices.csv": "a24409070505d5876c2b31d017c2d8ac56a06f3e14bde4e14a205a7439b6c788",
+    "round_04/validation_indices.csv": "f2c8c77403c74d91f15f67a133036d4f165ae0a8ac7b83ebe5db586996e8690e",
+    "round_04/test_indices.csv": "cec1a42b4d0c35bd3edefecf29ef8a386fca7aa91bbea5bf73033985ef9ebf8c",
+    "round_04/fraction_020_indices.csv": "ed3592aeb6a32807ced4b894a7990a1ba5798ee0f84518246c0851c975f7a275",
+    "round_04/fraction_040_indices.csv": "fe2294f1961dbcc7599671fcd3c831a15c5c4c88b44a388c1bce3082cd39d240",
+    "round_04/fraction_060_indices.csv": "0ab1ea24f24920e42b86a985733bf1ef19f8a9284b4b389c09437778bc7034fa",
+    "round_04/fraction_080_indices.csv": "2b43b8a812bcf787ab34ce17b180be6ed0a7287da65789c1adfb93758c229d47",
+    "round_04/fraction_100_indices.csv": "a24409070505d5876c2b31d017c2d8ac56a06f3e14bde4e14a205a7439b6c788",
+    "round_05/train_indices.csv": "a009efc8fc1c43f232d010acf9a97f277c83d70be94fcbb0c2cf980febbc34f3",
+    "round_05/validation_indices.csv": "315222258e8a67a77454805d7b2be023899cec5ea0ed0dbbf830a9e0a674d450",
+    "round_05/test_indices.csv": "342c666e59fe310be57724305c47c796e73a328f69cc921d8d0ef2de37a91f12",
+    "round_05/fraction_020_indices.csv": "9cfff3ecc4e4e8603064b6777ffc6470c0f8f2b28c1317323638a24e34c29d15",
+    "round_05/fraction_040_indices.csv": "d6c414b680a90f4cb92ac9399102feee95fe34c5c6b4f98604eab3f4b5fb5afa",
+    "round_05/fraction_060_indices.csv": "a84541cb74448d9a3547a838c1e47f5d5101d6d1c104791114f8ba6d7102a09d",
+    "round_05/fraction_080_indices.csv": "c6375433976fb0258506c69306f875a5edbe7a6bd0ab2f0d7d7e111b024338c2",
+    "round_05/fraction_100_indices.csv": "a009efc8fc1c43f232d010acf9a97f277c83d70be94fcbb0c2cf980febbc34f3"
+  },
+  "torch": "2.14.1+cpu",
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "cuda_used": false,
+  "cpu_threads": 1,
+  "config": {
+    "output": "credit_card_fraud_10k_results/nn_rf_comparison",
+    "input": "fraudulent_card.csv",
+    "frozen_splits": "credit_card_fraud_10k_results/chapter6_supplement/learning_curves/frozen_training_subsets.json",
+    "hidden_layers": [
+      64,
+      32
+    ],
+    "activation": "ReLU",
+    "dropout": 0.1,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "max_epochs": 400,
+    "min_epochs": 60,
+    "early_stopping_patience": 50,
+    "selection_metric": "validation_pr_auc",
+    "improvement_tolerance": 1e-12,
+    "checkpoint_tie_break": "earliest_epoch",
+    "threshold_metric": "validation_f2",
+    "threshold_tie_break": "larger_threshold",
+    "num_threads": 1,
+    "sampling_ratio": 0.5,
+    "smote_neighbors": 5,
+    "nearmiss_neighbors": 3,
+    "variants": [
+      {
+        "method": "MLP-Plain",
+        "strategy": "none",
+        "rf_method": "RF-Plain"
+      },
+      {
+        "method": "MLP-Balanced",
+        "strategy": "balanced",
+        "rf_method": "RF-Balanced"
+      },
+      {
+        "method": "MLP-SMOTE",
+        "strategy": "SMOTE",
+        "rf_method": "SMOTE"
+      },
+      {
+        "method": "MLP-ADASYN",
+        "strategy": "ADASYN",
+        "rf_method": "ADASYN"
+      },
+      {
+        "method": "MLP-NearMiss",
+        "strategy": "NearMiss",
+        "rf_method": "NearMiss"
+      },
+      {
+        "method": "MLP-SMOTE+Tomek",
+        "strategy": "SMOTE+Tomek",
+        "rf_method": "SMOTE+Tomek"
+      },
+      {
+        "method": "MLP-SMOTE+ENN",
+        "strategy": "SMOTE+ENN",
+        "rf_method": "SMOTE+ENN"
+      }
+    ],
+    "figure_dpi": 300,
+    "figure_font": "Microsoft YaHei",
+    "note": "No architecture search. Seven prespecified sampling/weighting variants. All 35 checkpoints and validation thresholds are frozen before any neural test scoring. Original RF and unsupervised results are preserved."
+  }
+}

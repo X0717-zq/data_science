@@ -1,0 +1,13 @@
+{
+  "scenario": "Predict every transaction as legitimate (0)",
+  "total": 9943,
+  "fraud": 94,
+  "normal": 9849,
+  "fraud_prevalence": 0.009453887156793725,
+  "accuracy": 0.9905461128432063,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "f2": 0.0,
+  "mcc": 0.0
+}

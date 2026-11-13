@@ -1,0 +1,118 @@
+{
+  "all_checks_passed": true,
+  "exact_original_scores_labels_predictions_thresholds": true,
+  "all_source_hashes_unchanged": true,
+  "shap_additivity_passed": true,
+  "all_8_grouped_shap_mean_sd_recomputed": true,
+  "all_8_permutation_mean_sd_recomputed": true,
+  "unique_positive_transactions": 51,
+  "prediction_occurrences": 7460,
+  "unique_transactions": 5485,
+  "permutation_evaluations": 1200,
+  "figures": [
+    {
+      "name": "fig7_1_global_importance",
+      "pixel_dimensions": [
+        2220,
+        1350
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "minimum_font_pt": 7.7,
+      "alignment": "PASS",
+      "collisions": "PASS",
+      "sha256": {
+        ".png": "c556bb68862498cbb9eb7393de21e1465a54e288fc4ee38985d161a24f93fd97",
+        ".pdf": "77997a005afea487afc3918612603be615a91e3ca0bf5e5e88bd303f837e5aea",
+        ".svg": "63eda7841b3c056052ef927c4860979a49bae044859738f1875cf8aa3544a821"
+      }
+    },
+    {
+      "name": "fig7_2_shap_direction",
+      "pixel_dimensions": [
+        2220,
+        1830
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "minimum_font_pt": 7.5,
+      "alignment": "PASS",
+      "collisions": "PASS",
+      "sha256": {
+        ".png": "d9ca00913a7604cb7d8706b745f98447c17069c1609cc5c1930dee18cb9b5501",
+        ".pdf": "847ab6d9d8ccbf3fa286a13b5576bb2b9ae76e6db0abb269def895282be4045b",
+        ".svg": "ac886efef433415d697077ed5247f3fdb9a6a6e3c15d1c499618c60b82b6aa2f"
+      }
+    },
+    {
+      "name": "fig7_3_fp_fn_local_shap",
+      "pixel_dimensions": [
+        2220,
+        1500
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "minimum_font_pt": 7.0,
+      "alignment": "PASS",
+      "collisions": "PASS",
+      "sha256": {
+        ".png": "61037d03e0564947f7976053090ac45181e14f4019f4b7f8d830c651217e7905",
+        ".pdf": "18b91c9749867acb71e432833a54136b3ffee866ed899f66895d5f7e80ea75d7",
+        ".svg": "08824ee031f463bdccf85444984aa14bc06c95eca28de8860556ea4b36c7735c"
+      }
+    },
+    {
+      "name": "fig7_4_hour_device_fraud_rate",
+      "pixel_dimensions": [
+        2220,
+        1200
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "minimum_font_pt": 7.1,
+      "alignment": "PASS",
+      "collisions": "PASS",
+      "sha256": {
+        ".png": "244edbeb3a1fc47c204a4d8d7085b229afd880fc55aaf9a88725933645fc7f62",
+        ".pdf": "0558347527c3a1fc48d39ea7c739ff80ba90047a5f8157ad9133614d2a2026db",
+        ".svg": "82666d84e16719928b08b572c7a102295985b6f6f97a38696213fc30f523fdb3"
+      }
+    },
+    {
+      "name": "fig7_5_foreign_location_velocity_fraud_rate",
+      "pixel_dimensions": [
+        2220,
+        1200
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "minimum_font_pt": 7.1,
+      "alignment": "PASS",
+      "collisions": "PASS",
+      "sha256": {
+        ".png": "ffd732864a9f94e70ee301d39676a2aa7e2c8af0486fd1bbb0b074c1388af4c8",
+        ".pdf": "2615199cec018bda3d97a69f573944d690a34648024cc8b06bc0cbfe641ff7bb",
+        ".svg": "493f35b22a833054de180ac5110e8e51af1790f4f50a9a351f837a85a2e07b12"
+      }
+    }
+  ],
+  "static_warnings_review": {
+    "PNG_without_TIFF": "No TIFF requested; PNG at verified 300 dpi plus PDF/SVG supplied.",
+    "dynamic_DPI": "DPI comes from the separate config and is verified from PNG metadata.",
+    "random_generator": "Only visual horizontal jitter for the binary flag; all observed scores, values, labels and SHAP remain intact.",
+    "dynamic_figure_width": "Risk-group figure dimensions come from a separate config: 7.4 by 4.0 inches, checked against rendered PNG dimensions and panel geometry."
+  },
+  "interpretation_boundary": "Associational model explanations and retrospective test diagnostics, not causal mechanisms, tuned features, or validated production rules.",
+  "risk_group_counts_and_train_cutpoints_verified": true,
+  "requested_section_figure_table_order_verified": true
+}

@@ -1,0 +1,7 @@
+﻿figure,group,feature_cn,unique_transactions,fraud,normal,fraud_rate,display_label
+fig7_5_foreign_location_velocity_fraud_rate,1,境外交易标记,525,28,497,0.05333333333333334,境外
+fig7_5_foreign_location_velocity_fraud_rate,0,境外交易标记,4960,23,4937,0.004637096774193548,非境外
+fig7_5_foreign_location_velocity_fraud_rate,1,位置不匹配,471,20,451,0.04246284501061571,不匹配
+fig7_5_foreign_location_velocity_fraud_rate,0,位置不匹配,5014,31,4983,0.006182688472277623,匹配
+fig7_5_foreign_location_velocity_fraud_rate,>3,24小时交易次数,767,26,741,0.03389830508474576,>3次
+fig7_5_foreign_location_velocity_fraud_rate,≤3,24小时交易次数,4718,25,4693,0.0052988554472234,≤3次

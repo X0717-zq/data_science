@@ -1,0 +1,199 @@
+Installed SHAP TreeExplainer.__init__ documentation
+
+Build a new Tree explainer for the passed model.
+
+Parameters
+----------
+model : model object
+    The tree based machine learning model that we want to explain.
+    XGBoost, LightGBM, CatBoost, Pyspark and most tree-based
+    scikit-learn models are supported.
+
+data : numpy.array or pandas.DataFrame
+    The background dataset to use for integrating out features.
+
+    This argument is optional when
+    ``feature_perturbation="tree_path_dependent"``, since in that case
+    we can use the number of training samples that went down each tree
+    path as our background dataset (this is recorded in the ``model``
+    object).
+
+feature_perturbation : "auto" (default), "interventional" or "tree_path_dependent"
+    Since SHAP values rely on conditional expectations, we need to
+    decide how to handle correlated (or otherwise dependent) input
+    features.
+
+    - if ``"interventional"``, a background dataset ``data`` is required. The
+      dependencies between features are handled according to the rules dictated
+      by causal inference [1]_. The runtime scales linearly with the size of the
+      background dataset you use: anywhere from 100 to 1000 random background
+      samples are good sizes to use.
+    - if ``"tree_path_dependent"``, no background dataset is required and the
+      approach is to just follow the trees and use the number of training
+      examples that went down each leaf to represent the background
+      distribution.
+    - if ``"auto"``, the "interventional" approach will be used when a
+      background is provided, otherwise the "tree_path_dependent" approach will
+      be used.
+
+    .. versionadded:: 0.47
+       The `"auto"` option was added.
+
+    .. versionchanged:: 0.47
+       The default behaviour will change from `"interventional"` to `"auto"` in 0.47.
+       In the future, passing `feature_pertubation="interventional"` without providing
+       a background dataset will raise an error.
+
+
+model_output : "raw", "probability", "log_loss", or model method name
+    What output of the model should be explained.
+
+    * If "raw", then we explain the raw output of the trees, which
+      varies by model. For regression models, "raw" is the standard
+      output. For binary classification in XGBoost, this is the log odds
+      ratio.
+    * If "probability", then we explain the output of the model
+      transformed into probability space (note that this means the SHAP
+      values now sum to the probability output of the model).
+    * If "log_loss", then we explain the natural logarithm of the model
+      loss function, so that the SHAP values sum up to the log loss of
+      the model for each sample. This is helpful for breaking down model
+      performance by feature.
+    * If ``model_output`` is the name of a supported prediction method
+      on the ``model`` object, then we explain the output of that model
+      method name. For example, ``model_output="predict_proba"``
+      explains the result of calling ``model.predict_proba``.
+
+    Currently the "probability" and "log_loss" options are only
+    supported when ``feature_perturbation="interventional"``.
+
+approximate : bool
+    Deprecated, will be deprecated in v0.47.0 and removed in version v0.49.0.
+    Please use the ``approximate`` argument in the :meth:`.shap_values` or ``__call__`` methods instead.
+
+References
+----------
+.. [1] Janzing, Dominik, Lenon Minorics, and Patrick Blöbaum.
+       "Feature relevance quantification in explainable AI: A causal problem."
+       International Conference on artificial intelligence and statistics. PMLR, 2020.
+
+Installed sklearn permutation_importance documentation (conceptual reference; our implementation permutes original groups and scores trapezoidal PR-AUC)
+
+Permutation importance for feature evaluation [BRE]_.
+
+The :term:`estimator` is required to be a fitted estimator. `X` can be the
+data set used to train the estimator or a hold-out set. The permutation
+importance of a feature is calculated as follows. First, a baseline metric,
+defined by :term:`scoring`, is evaluated on a (potentially different)
+dataset defined by the `X`. Next, a feature column from the validation set
+is permuted and the metric is evaluated again. The permutation importance
+is defined to be the difference between the baseline metric and metric from
+permutating the feature column.
+
+Read more in the :ref:`User Guide <permutation_importance>`.
+
+Parameters
+----------
+estimator : object
+    An estimator that has already been :term:`fitted` and is compatible
+    with :term:`scorer`.
+
+X : ndarray or DataFrame, shape (n_samples, n_features)
+    Data on which permutation importance will be computed.
+
+y : array-like or None, shape (n_samples, ) or (n_samples, n_classes)
+    Targets for supervised or `None` for unsupervised.
+
+scoring : str, callable, list, tuple, or dict, default=None
+    Scorer to use.
+    If `scoring` represents a single score, one can use:
+
+    - str: see :ref:`scoring_string_names` for options.
+    - callable: a scorer callable object (e.g., function) with signature
+      ``scorer(estimator, X, y)``. See :ref:`scoring_callable` for details.
+    - `None`: the `estimator`'s
+      :ref:`default evaluation criterion <scoring_api_overview>` is used.
+
+    If `scoring` represents multiple scores, one can use:
+
+    - a list or tuple of unique strings;
+    - a callable returning a dictionary where the keys are the metric
+      names and the values are the metric scores;
+    - a dictionary with metric names as keys and callables a values.
+
+    Passing multiple scores to `scoring` is more efficient than calling
+    `permutation_importance` for each of the scores as it reuses
+    predictions to avoid redundant computation.
+
+n_repeats : int, default=5
+    Number of times to permute a feature.
+
+n_jobs : int or None, default=None
+    Number of jobs to run in parallel. The computation is done by computing
+    permutation score for each columns and parallelized over the columns.
+    `None` means 1 unless in a :obj:`joblib.parallel_backend` context.
+    `-1` means using all processors. See :term:`Glossary <n_jobs>`
+    for more details.
+
+random_state : int, RandomState instance, default=None
+    Pseudo-random number generator to control the permutations of each
+    feature.
+    Pass an int to get reproducible results across function calls.
+    See :term:`Glossary <random_state>`.
+
+sample_weight : array-like of shape (n_samples,), default=None
+    Sample weights used in scoring.
+
+    .. versionadded:: 0.24
+
+max_samples : int or float, default=1.0
+    The number of samples to draw from X to compute feature importance
+    in each repeat (without replacement).
+
+    - If int, then draw `max_samples` samples.
+    - If float, then draw `max_samples * X.shape[0]` samples.
+    - If `max_samples` is equal to `1.0` or `X.shape[0]`, all samples
+      will be used.
+
+    While using this option may provide less accurate importance estimates,
+    it keeps the method tractable when evaluating feature importance on
+    large datasets. In combination with `n_repeats`, this allows to control
+    the computational speed vs statistical accuracy trade-off of this method.
+
+    .. versionadded:: 1.0
+
+Returns
+-------
+result : :class:`~sklearn.utils.Bunch` or dict of such instances
+    Dictionary-like object, with the following attributes.
+
+    importances_mean : ndarray of shape (n_features, )
+        Mean of feature importance over `n_repeats`.
+    importances_std : ndarray of shape (n_features, )
+        Standard deviation over `n_repeats`.
+    importances : ndarray of shape (n_features, n_repeats)
+        Raw permutation importance scores.
+
+    If there are multiple scoring metrics in the scoring parameter
+    `result` is a dict with scorer names as keys (e.g. 'roc_auc') and
+    `Bunch` objects like above as values.
+
+References
+----------
+.. [BRE] :doi:`L. Breiman, "Random Forests", Machine Learning, 45(1), 5-32,
+         2001. <10.1023/A:1010933404324>`
+
+Examples
+--------
+>>> from sklearn.linear_model import LogisticRegression
+>>> from sklearn.inspection import permutation_importance
+>>> X = [[1, 9, 9],[1, 9, 9],[1, 9, 9],
+...      [0, 9, 9],[0, 9, 9],[0, 9, 9]]
+>>> y = [1, 1, 1, 0, 0, 0]
+>>> clf = LogisticRegression().fit(X, y)
+>>> result = permutation_importance(clf, X, y, n_repeats=10,
+...                                 random_state=0)
+>>> result.importances_mean
+array([0.4666, 0.       , 0.       ])
+>>> result.importances_std
+array([0.2211, 0.       , 0.       ])

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.4pt" height="468pt" viewBox="0 0 518.4 468" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-10T21:02:55.432810</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 468 
+L 518.4 468 
+L 518.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 55.655424 65.96928 
+L 462.744576 65.96928 
+Q 468.716544 65.96928 468.716544 60.57792 
+L 468.716544 25.53408 
+Q 468.716544 20.14272 462.744576 20.14272 
+L 55.655424 20.14272 
+Q 49.683456 20.14272 49.683456 25.53408 
+L 49.683456 60.57792 
+Q 49.683456 65.96928 55.655424 65.96928 
+z
+" clip-path="url(#p422a86cf8d)" style="fill: #edf2f7; stroke: #52667a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 55.655424 131.11488 
+L 462.744576 131.11488 
+Q 468.716544 131.11488 468.716544 125.72352 
+L 468.716544 90.67968 
+Q 468.716544 85.28832 462.744576 85.28832 
+L 55.655424 85.28832 
+Q 49.683456 85.28832 49.683456 90.67968 
+L 49.683456 125.72352 
+Q 49.683456 131.11488 55.655424 131.11488 
+z
+" clip-path="url(#p422a86cf8d)" style="fill: #edf2f7; stroke: #52667a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 30.772224 210.86208 
+L 159.169536 210.86208 
+Q 165.141504 210.86208 165.141504 205.47072 
+L 165.141504 159.19488 
+Q 165.141504 153.80352 159.169536 153.80352 
+L 30.772224 153.80352 
+Q 24.800256 153.80352 24.800256 159.19488 
+L 24.800256 205.47072 
+Q 24.800256 210.86208 30.772224 210.86208 
+z
+" clip-path="url(#p422a86cf8d)" style="fill: #edf2f7; stroke: #52667a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 195.001344 210.86208 
+L 323.398656 210.86208 
+Q 329.370624 210.86208 329.370624 205.47072 
+L 329.370624 159.19488 
+Q 329.370624 153.80352 323.398656 153.80352 
+L 195.001344 153.80352 
+Q 189.029376 153.80352 189.029376 159.19488 
+L 189.029376 205.47072 
+Q 189.029376 210.86208 195.001344 210.86208 
+z
+" clip-path="url(#p422a86cf8d)" style="fill: #edf2f7; stroke: #52667a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 359.230464 210.86208 
+L 487.627776 210.86208 
+Q 493.599744 210.86208 493.599744 205.47072 
+L 493.599744 159.19488 
+Q 493.599744 153.80352 487.627776 153.80352 
+L 359.230464 153.80352 
+Q 353.258496 153.80352 353.258496 159.19488 
+L 353.258496 205.47072 
+Q 353.258496 210.86208 359.230464 210.86208 
+z
+" clip-path="url(#p422a86cf8d)" style="fill: #edf2f7; stroke: #52667a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 30.772224 291.73248 
+L 159.169536 291.73248 
+Q 165.141504 291.73248 165.141504 286.34112 
+L 165.141504 240.06528 
+Q 165.141504 234.67392 159.169536 234.67392 
+L 30.772224 234.67392 
+Q 24.800256 234.67392 24.800256 240.06528 
+L 24.800256 286.34112 
+Q 24.800256 291.73248 30.772224 291.73248 
+z
+" clip-path="url(#p422a86cf8d)" style="fill: #e9f2ef; stroke: #52667a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 195.001344 291.73248 
+L 323.398656 291.73248 
+Q 329.370624 291.73248 329.370624 286.34112 
+L 329.370624 240.06528 
+Q 329.370624 234.67392 323.398656 234.67392 
+L 195.001344 234.67392 
+Q 189.029376 234.67392 189.029376 240.06528 
+L 189.029376 286.34112 
+Q 189.029376 291.73248 195.001344 291.73248 
+z
+" clip-path="url(#p422a86cf8d)" style="fill: #e9f2ef; stroke: #52667a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 359.230464 291.73248 
+L 487.627776 291.73248 
+Q 493.599744 291.73248 493.599744 286.34112 
+L 493.599744 240.06528 
+Q 493.599744 234.67392 487.627776 234.67392 
+L 359.230464 234.67392 
+Q 353.258496 234.67392 353.258496 240.06528 
+L 353.258496 286.34112 
+Q 353.258496 291.73248 359.230464 291.73248 
+z
+" clip-path="url(#p422a86cf8d)" style="fill: #e9f2ef; stroke: #52667a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 30.772224 389.45088 
+L 298.515456 389.45088 
+Q 304.487424 389.45088 304.487424 384.05952 
+L 304.487424 331.04448 
+Q 304.487424 325.65312 298.515456 325.65312 
+L 30.772224 325.65312 
+Q 24.800256 325.65312 24.800256 331.04448 
+L 24.800256 384.05952 
+Q 24.800256 389.45088 30.772224 389.45088 
+z
+" clip-path="url(#p422a86cf8d)" style="fill: #edf2f7; stroke: #52667a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 331.858944 389.45088 
+L 485.139456 389.45088 
+Q 491.111424 389.45088 491.111424 384.05952 
+L 491.111424 331.04448 
+Q 491.111424 325.65312 485.139456 325.65312 
+L 331.858944 325.65312 
+Q 325.886976 325.65312 325.886976 331.04448 
+L 325.886976 384.05952 
+Q 325.886976 389.45088 331.858944 389.45088 
+z
+" clip-path="url(#p422a86cf8d)" style="fill: #edf2f7; stroke: #52667a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(212.45 39.244281)">低正例率数据与字段核验</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(174.488867 51.549359)">9,943条：94欺诈＋9,849正常；8个原始特征</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(186.95 104.389881)">五轮分层留出（同轮九模型共用划分）</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(173.241094 116.694959)">70%训练 / 15%验证 / 15%测试；冻结行索引</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 259.2 67.973819 
+Q 259.2 75.631343 259.2 82.282637 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 260.8 79.082637 
+L 259.2 82.282637 
+L 257.6 79.082637 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(82.22088 172.368542)">训练集</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(61.913185 184.67362)">6,960条 / 66正例</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(52.47088 196.978698)">拟合标准化与独热编码</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(246.45 172.368542)">验证集</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(226.142305 184.67362)">1,491条 / 14正例</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(220.95 196.978698)">仅应用训练所得变换</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(410.67912 172.368542)">测试集</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(390.371425 184.67362)">1,492条 / 14正例</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(385.17912 196.978698)">仅应用训练所得变换</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 94.97088 133.113935 
+Q 94.97088 142.344644 94.97088 150.569123 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 96.57088 147.369123 
+L 94.97088 150.569123 
+L 93.37088 147.369123 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 259.2 133.113935 
+Q 259.2 142.344644 259.2 150.569123 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 260.8 147.369123 
+L 259.2 150.569123 
+L 257.6 147.369123 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 423.42912 133.113935 
+Q 423.42912 142.344644 423.42912 150.569123 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 425.02912 147.369123 
+L 423.42912 150.569123 
+L 421.82912 147.369123 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(60.97088 253.238942)">仅训练部分重采样</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(48.139864 265.54402)">或类别权重 / 无监督拟合</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(56.72088 277.849098)">九模型生成连续分数</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(225.2 253.238942)">验证分数选择阈值</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(211.949961 265.54402)">F2最大；并列取较大阈值</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(233.7 277.849098)">随后冻结阈值</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(393.67912 253.238942)">冻结模型与阈值</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(385.17912 265.54402)">计算测试指标与曲线</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(379.482792 277.849098)">导出逐笔TP/FP/TN/FN</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 94.97088 212.640169 
+Q 94.97088 222.545052 94.97088 231.443703 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 96.57088 228.243703 
+L 94.97088 231.443703 
+L 93.37088 228.243703 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 259.2 212.640169 
+Q 259.2 222.545052 259.2 231.443703 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 260.8 228.243703 
+L 259.2 231.443703 
+L 257.6 228.243703 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 423.42912 212.640169 
+Q 423.42912 222.545052 423.42912 231.443703 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 425.02912 228.243703 
+L 423.42912 231.443703 
+L 421.82912 228.243703 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 169.628985 263.2032 
+Q 177.083757 263.2032 183.532297 263.2032 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 180.332297 261.6032 
+L 183.532297 263.2032 
+L 180.332297 264.8032 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 333.858105 263.2032 
+Q 341.312877 263.2032 347.761417 263.2032 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 344.561417 261.6032 
+L 347.761417 263.2032 
+L 344.561417 264.8032 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(102.120363 347.587742)">训练规模学习曲线：20%→100%</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(100.89384 359.89282)">仅使用嵌套训练子集与固定验证集</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(105.135871 372.197898)">9模型×5规模×5轮＝225次拟合</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(370.2492 347.587742)">五轮汇总与误差分析</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(382.656544 359.89282)">均值±样本SD</text>
+    <text style="font-size: 8.5px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #192d40" transform="translate(362.112442 372.197898)">结合原始交易核查FP/FN</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 94.97088 293.504372 
+Q 94.97088 308.579984 94.97088 322.649366 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 96.57088 319.449366 
+L 94.97088 322.649366 
+L 93.37088 319.449366 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 423.42912 293.504372 
+Q 423.42912 308.579984 423.42912 322.649366 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 425.02912 319.449366 
+L 423.42912 322.649366 
+L 421.82912 319.449366 
+" style="fill: none; stroke: #52667a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8px; font-family: 'Microsoft YaHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #394d61" x="259.2" y="433.886325" transform="rotate(-0 259.2 433.886325)">验证集与测试集不重采样；测试结果不回流至参数、特征或阈值选择</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p422a86cf8d">
+   <rect x="10.368" y="9.36" width="497.664" height="449.28"/>
+  </clipPath>
+ </defs>
+</svg>

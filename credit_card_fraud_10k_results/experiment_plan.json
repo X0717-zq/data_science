@@ -1,0 +1,129 @@
+{
+  "dataset": {
+    "input_file": "C:\\Users\\86132\\Desktop\\026\\data_science\\test_card_fraud\\credit_card_fraud_10k_revised_bundle\\fraudulent_card.csv",
+    "input_rows": 9943,
+    "input_fraud": 94,
+    "input_normal": 9849,
+    "input_prevalence": 0.009453887156793725,
+    "reduction_applied_in_this_run": false,
+    "original_rows_if_known": null,
+    "original_fraud_if_known": null,
+    "original_normal_if_known": null,
+    "retained_rows": 9943,
+    "retained_fraud": 94,
+    "retained_normal": 9849,
+    "retained_prevalence": 0.009453887156793725,
+    "removed_fraud_from_raw_if_known": null,
+    "downsample_seed": 20261109,
+    "prepared_dataset_file": "C:\\Users\\86132\\Desktop\\026\\data_science\\test_card_fraud\\credit_card_fraud_10k_revised_bundle\\credit_card_fraud_10k_results\\fraudulent_card_under_1pct.csv"
+  },
+  "target": "is_fraud",
+  "positive_class": 1,
+  "features": [
+    "amount",
+    "transaction_hour",
+    "foreign_transaction",
+    "location_mismatch",
+    "device_trust_score",
+    "velocity_last_24h",
+    "cardholder_age",
+    "merchant_category"
+  ],
+  "excluded_features": [
+    "transaction_id"
+  ],
+  "numeric_features": [
+    "amount",
+    "transaction_hour",
+    "foreign_transaction",
+    "location_mismatch",
+    "device_trust_score",
+    "velocity_last_24h",
+    "cardholder_age"
+  ],
+  "categorical_features": [
+    "merchant_category"
+  ],
+  "n_repeats": 5,
+  "split_seeds": [
+    20261109,
+    20261110,
+    20261111,
+    20261112,
+    20261113
+  ],
+  "model_seed_rule": "model_seed = split_seed + repeat_number",
+  "split": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15,
+    "stratified": true
+  },
+  "threshold_selection": "Maximum F2 on validation; tie-break chooses larger threshold; frozen for test",
+  "rf": {
+    "n_estimators": 120,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "n_jobs": 1
+  },
+  "rf_plain": {
+    "class_weight": null,
+    "resampling": false
+  },
+  "rf_balanced": {
+    "class_weight": "balanced",
+    "resampling": false
+  },
+  "sampling_ratio": 0.5,
+  "samplers": {
+    "SMOTE": {
+      "sampling_strategy": 0.5,
+      "k_neighbors": 5
+    },
+    "ADASYN": {
+      "sampling_strategy": 0.5,
+      "n_neighbors": 5
+    },
+    "NearMiss": {
+      "version": 1,
+      "sampling_strategy": 0.5,
+      "n_neighbors": 3
+    },
+    "SMOTE+Tomek": {
+      "SMOTE_sampling_strategy": 0.5,
+      "k_neighbors": 5
+    },
+    "SMOTE+ENN": {
+      "SMOTE_sampling_strategy": 0.5,
+      "k_neighbors": 5
+    },
+    "EasyEnsemble": {
+      "n_estimators": 10,
+      "base_rf_estimators": 60,
+      "sampling_strategy": "library default"
+    }
+  },
+  "isolation_forest": {
+    "n_estimators": 200,
+    "contamination": "auto",
+    "fit_uses_labels": false
+  },
+  "preprocessing": "StandardScaler + OneHotEncoder, fit on training split only",
+  "curve_method": "Interpolate each test PR curve to a common recall grid; report mean and SD over five splits",
+  "versions": {
+    "python": "3.10.11",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2",
+    "imbalanced_learn": "0.14.2",
+    "matplotlib": "3.10.9",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "important_limits": [
+    "The 94 retained fraud records are a deterministic subset of the original 151; 57 fraud records were discarded.",
+    "Five repeated splits reuse the same 94 positive records; mean and SD describe split variability, not independent-sample confidence intervals.",
+    "Each validation and test split contains 14 fraud records; one case changes per-split recall by about 7.14 percentage points.",
+    "SMOTE variants interpolate in the one-hot encoded numerical feature space and can create fractional categorical indicator values.",
+    "Isolation Forest is unsupervised during fitting; validation labels are used for threshold selection."
+  ]
+}

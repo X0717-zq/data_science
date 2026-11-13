@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="532.8000000000001pt" height="324.0pt" viewBox="0 0 532.8000000000001 324.0">
+<rect width="100%" height="100%" fill="white"/>
+<rect x="106.560" y="61.560" width="178.372" height="174.960" fill="none" stroke="#2c7bb6" stroke-width="1.2"/>
+<text x="108.560" y="71.560" font-family="Arial, sans-serif" font-size="8" fill="#2c7bb6">a</text>
+<rect x="338.444" y="61.560" width="178.372" height="174.960" fill="none" stroke="#2c7bb6" stroke-width="1.2"/>
+<text x="340.444" y="71.560" font-family="Arial, sans-serif" font-size="8" fill="#2c7bb6">b</text>
+<text x="4" y="319.000" font-family="Arial, sans-serif" font-size="7" fill="#333">PASS: 0 fail, 0 warn</text>
+</svg>

@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="672pt" height="708pt" viewBox="0 0 672 708" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-13T09:45:03.218659</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 708 
+L 672 708 
+L 672 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 12 12 
+L 660 12 
+L 660 97 
+L 12 97 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f3eff9; stroke-dasharray: 2.625,2.25; stroke-dashoffset: 0; stroke: #9c91ac; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 12 113 
+L 660 113 
+L 660 211 
+L 12 211 
+z
+" clip-path="url(#pc339650c65)" style="fill: #fff7de; stroke-dasharray: 2.625,2.25; stroke-dashoffset: 0; stroke: #b6a77c; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 12 227 
+L 660 227 
+L 660 302 
+L 12 302 
+z
+" clip-path="url(#pc339650c65)" style="fill: #eaf4ee; stroke-dasharray: 2.625,2.25; stroke-dashoffset: 0; stroke: #8ea69a; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 12 318 
+L 660 318 
+L 660 410 
+L 12 410 
+z
+" clip-path="url(#pc339650c65)" style="fill: #e2f0f2; stroke-dasharray: 2.625,2.25; stroke-dashoffset: 0; stroke: #89a5aa; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 12 426 
+L 660 426 
+L 660 524 
+L 12 524 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f3eff9; stroke-dasharray: 2.625,2.25; stroke-dashoffset: 0; stroke: #9c91ac; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 12 540 
+L 660 540 
+L 660 650 
+L 12 650 
+z
+" clip-path="url(#pc339650c65)" style="fill: #eaf4ee; stroke-dasharray: 2.625,2.25; stroke-dashoffset: 0; stroke: #8ea69a; stroke-width: 0.75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 12 664 
+L 660 664 
+L 660 696 
+L 12 696 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f2eff8; stroke: #a398b3; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 116 24 
+L 116 85 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #9c91ac; stroke-opacity: 0.65; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 116 125 
+L 116 199 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #b6a77c; stroke-opacity: 0.65; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 116 239 
+L 116 290 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #8ea69a; stroke-opacity: 0.65; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 116 330 
+L 116 398 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #89a5aa; stroke-opacity: 0.65; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 116 438 
+L 116 512 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #9c91ac; stroke-opacity: 0.65; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 116 552 
+L 116 638 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #8ea69a; stroke-opacity: 0.65; stroke-width: 0.55; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 130 24 
+L 326 24 
+L 326 85 
+L 130 85 
+z
+" clip-path="url(#pc339650c65)" style="fill: #fcfaff; stroke: #8b809d; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 346 24 
+L 656 24 
+L 656 85 
+L 346 85 
+z
+" clip-path="url(#pc339650c65)" style="fill: #fcfaff; stroke: #8b809d; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 130 140 
+L 292 140 
+L 292 182 
+L 130 182 
+z
+" clip-path="url(#pc339650c65)" style="fill: #fffcf3; stroke: #ad9e75; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 312 140 
+L 474 140 
+L 474 182 
+L 312 182 
+z
+" clip-path="url(#pc339650c65)" style="fill: #fffcf3; stroke: #ad9e75; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 494 140 
+L 656 140 
+L 656 182 
+L 494 182 
+z
+" clip-path="url(#pc339650c65)" style="fill: #fffcf3; stroke: #ad9e75; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 130 253 
+L 254 253 
+L 254 271 
+L 130 271 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f8fcf9; stroke: #81998c; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 264 253 
+L 388 253 
+L 388 271 
+L 264 271 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f8fcf9; stroke: #81998c; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 398 253 
+L 522 253 
+L 522 271 
+L 398 271 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f8fcf9; stroke: #81998c; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 532 253 
+L 656 253 
+L 656 271 
+L 532 271 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f8fcf9; stroke: #81998c; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 130 279 
+L 292 279 
+L 292 297 
+L 130 297 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f8fcf9; stroke: #81998c; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 312 279 
+L 474 279 
+L 474 297 
+L 312 297 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f8fcf9; stroke: #81998c; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 494 279 
+L 656 279 
+L 656 297 
+L 494 297 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f8fcf9; stroke: #81998c; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 130 330 
+L 383 330 
+L 383 376 
+L 130 376 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f4fafb; stroke: #78979d; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 403 330 
+L 656 330 
+L 656 376 
+L 403 376 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f4fafb; stroke: #78979d; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 130 438 
+L 383 438 
+L 383 497 
+L 130 497 
+z
+" clip-path="url(#pc339650c65)" style="fill: #fcfaff; stroke: #8b809d; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 403 438 
+L 656 438 
+L 656 497 
+L 403 497 
+z
+" clip-path="url(#pc339650c65)" style="fill: #fcfaff; stroke: #8b809d; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 130 552 
+L 383 552 
+L 383 613 
+L 130 613 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f8fcf9; stroke: #81998c; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 403 552 
+L 656 552 
+L 656 613 
+L 403 613 
+z
+" clip-path="url(#pc339650c65)" style="fill: #f8fcf9; stroke: #81998c; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="42.198828" transform="rotate(-0 64 42.198828)">01</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 11.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="57.611914" transform="rotate(-0 64 57.611914)">数据构建</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="72.611914" transform="rotate(-0 64 72.611914)">与预处理</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="157.198828" transform="rotate(-0 64 157.198828)">02</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="172.611914" transform="rotate(-0 64 172.611914)">数据集划分</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="259.698828" transform="rotate(-0 64 259.698828)">03</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="275.111914" transform="rotate(-0 64 275.111914)">不平衡处理</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="359.198828" transform="rotate(-0 64 359.198828)">04</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 11.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="374.611914" transform="rotate(-0 64 374.611914)">模型构建</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="462.698828" transform="rotate(-0 64 462.698828)">05</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 11.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="478.111914" transform="rotate(-0 64 478.111914)">模型选择</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 11.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="493.111914" transform="rotate(-0 64 493.111914)">与阈值确定</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="582.698828" transform="rotate(-0 64 582.698828)">06</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 11.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="598.111914" transform="rotate(-0 64 598.111914)">测试集评价</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11.3px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="64" y="613.111914" transform="rotate(-0 64 613.111914)">与误差分析</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="228" y="42.891602" transform="rotate(-0 228 42.891602)">原始交易清洗与特征整理</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="228" y="57.198828" transform="rotate(-0 228 57.198828)">核验字段、标签与交易记录</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="228" y="71.698828" transform="rotate(-0 228 71.698828)">保留8个原始特征</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="501" y="36.691602" transform="rotate(-0 501 36.691602)">构建欺诈率低于1%的数据集</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="501" y="50.298828" transform="rotate(-0 501 50.298828)">保留全部正常交易</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="501" y="64.098828" transform="rotate(-0 501 64.098828)">从原始欺诈交易中随机抽取部分样本</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="501" y="77.898828" transform="rotate(-0 501 77.898828)">9,849正常＋94欺诈＝9,943条</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="211" y="156.641602" transform="rotate(-0 211 156.641602)">训练集（70%）</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="211" y="170.948828" transform="rotate(-0 211 170.948828)">6,960条 / 66正例</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="393" y="156.641602" transform="rotate(-0 393 156.641602)">验证集（15%）</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="393" y="170.948828" transform="rotate(-0 393 170.948828)">1,491条 / 14正例</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="575" y="156.641602" transform="rotate(-0 575 156.641602)">测试集（15%）</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="575" y="170.948828" transform="rotate(-0 575 170.948828)">1,492条 / 14正例</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="192" y="264.698828" transform="rotate(-0 192 264.698828)">不重采样</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="326" y="264.698828" transform="rotate(-0 326 264.698828)">类别权重</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="460" y="264.698828" transform="rotate(-0 460 264.698828)">SMOTE</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="594" y="264.698828" transform="rotate(-0 594 264.698828)">ADASYN</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="211" y="290.698828" transform="rotate(-0 211 290.698828)">NearMiss</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="393" y="290.698828" transform="rotate(-0 393 290.698828)">SMOTE+Tomek</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="575" y="290.698828" transform="rotate(-0 575 290.698828)">SMOTE+ENN</text>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="256.5" y="348.641602" transform="rotate(-0 256.5 348.641602)">随机森林（RF）</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="256.5" y="362.948828" transform="rotate(-0 256.5 362.948828)">构建传统集成学习基线</text>
+   </g>
+   <g id="text_38">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="529.5" y="348.641602" transform="rotate(-0 529.5 348.641602)">多层感知机（MLP）</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="529.5" y="362.948828" transform="rotate(-0 529.5 362.948828)">考察神经网络在相同数据下的分类能力</text>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="256.5" y="455.891602" transform="rotate(-0 256.5 455.891602)">验证集PR-AUC选择模型状态</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="256.5" y="470.375688" transform="rotate(-0 256.5 470.375688)">MLP：恢复最佳epoch权重</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="256.5" y="484.698828" transform="rotate(-0 256.5 484.698828)">RF：比较各策略模型表现</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="529.5" y="455.891602" transform="rotate(-0 529.5 455.891602)">验证集F2确定分类阈值</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="529.5" y="470.198828" transform="rotate(-0 529.5 470.198828)">F2最大；并列取较大阈值</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="529.5" y="484.698828" transform="rotate(-0 529.5 484.698828)">随后冻结模型与阈值</text>
+   </g>
+   <g id="text_46">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="256.5" y="570.891602" transform="rotate(-0 256.5 570.891602)">独立测试集指标评价</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="256.5" y="585.198828" transform="rotate(-0 256.5 585.198828)">PR-AUC、AP、ROC-AUC</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="256.5" y="599.698828" transform="rotate(-0 256.5 599.698828)">Precision、Recall、F1、F2、MCC、FPR</text>
+   </g>
+   <g id="text_49">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="529.5" y="570.891602" transform="rotate(-0 529.5 570.891602)">曲线与误差案例分析</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="529.5" y="585.198828" transform="rotate(-0 529.5 585.198828)">PR/ROC曲线、混淆矩阵、学习曲线</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 9.8px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="529.5" y="599.698828" transform="rotate(-0 529.5 599.698828)">逐笔TP/FP/TN/FN与FP/FN案例</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 9.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="393" y="128.533594" transform="rotate(-0 393 128.533594)">五轮重复分层随机留出；同轮RF与MLP共用划分，冻结行索引</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 9.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="393" y="200.533594" transform="rotate(-0 393 200.533594)">划分后仅用训练集拟合标准化与独热编码；验证/测试集仅应用变换</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 9.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="393" y="243.533594" transform="rotate(-0 393 243.533594)">仅在训练集上应用采样或类别权重</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 9.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="393" y="391.533594" transform="rotate(-0 393 391.533594)">两类模型分别与七种处理策略组合；统一特征、数据划分与评价方式</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 9.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="393" y="404.681656" transform="rotate(-0 393 404.681656)">既有对照保留：EasyEnsemble、Isolation Forest</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 9.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="393" y="514.533594" transform="rotate(-0 393 514.533594)">PR-AUC用于模型选择；F2用于分类阈值选择，侧重召回</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 9.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="393" y="629.533594" transform="rotate(-0 393 629.533594)">五轮汇总均值±样本SD；结合原始交易核查误报（FP）与漏报（FN）</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 9.2px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="393" y="644.533594" transform="rotate(-0 393 644.533594)">学习曲线仅使用训练与验证数据；分析模型结构与处理策略的影响</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 9.1px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="336" y="675.906055" transform="rotate(-0 336 675.906055)">标准化与编码仅在训练集拟合；验证集与测试集不重采样</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 9.1px; font-family: 'Microsoft YaHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #20252b" x="336" y="689.106055" transform="rotate(-0 336 689.106055)">测试结果不回流至参数、特征、模型或阈值选择</text>
+   </g>
+   <g id="patch_27">
+    <path d="M 393 98.496094 
+Q 393 104.999127 393 110.495929 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 394.6 107.295929 
+L 393 110.495929 
+L 391.4 107.295929 
+z
+" clip-path="url(#pc339650c65)" style="fill: #65717a; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 393 212.496094 
+Q 393 218.999127 393 224.495929 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 394.6 221.295929 
+L 393 224.495929 
+L 391.4 221.295929 
+z
+" clip-path="url(#pc339650c65)" style="fill: #65717a; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 393 303.496094 
+Q 393 309.999127 393 315.495929 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 394.6 312.295929 
+L 393 315.495929 
+L 391.4 312.295929 
+z
+" clip-path="url(#pc339650c65)" style="fill: #65717a; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 393 411.496094 
+Q 393 417.999127 393 423.495929 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 394.6 420.295929 
+L 393 423.495929 
+L 391.4 420.295929 
+z
+" clip-path="url(#pc339650c65)" style="fill: #65717a; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 393 525.496094 
+Q 393 531.999127 393 537.495929 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 394.6 534.295929 
+L 393 537.495929 
+L 391.4 534.295929 
+z
+" clip-path="url(#pc339650c65)" style="fill: #65717a; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_32">
+    <path d="M 327.499023 54.5 
+Q 335.997458 54.5 343.489662 54.5 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 340.289662 52.9 
+L 343.489662 54.5 
+L 340.289662 56.1 
+z
+" clip-path="url(#pc339650c65)" style="fill: #65717a; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_33">
+    <path d="M 384.499023 467.5 
+Q 392.997458 467.5 400.489662 467.5 
+" clip-path="url(#pc339650c65)" style="fill: none; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 397.289662 465.9 
+L 400.489662 467.5 
+L 397.289662 469.1 
+z
+" clip-path="url(#pc339650c65)" style="fill: #65717a; stroke: #65717a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc339650c65">
+   <rect x="0" y="0" width="672" height="708"/>
+  </clipPath>
+ </defs>
+</svg>

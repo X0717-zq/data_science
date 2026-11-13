@@ -1,0 +1,6 @@
+﻿repeat,smote_n,smote_tomek_n,removed_by_tomek,identical_resampled_data
+1,10341,10341,0,True
+2,10341,10341,0,True
+3,10341,10341,0,True
+4,10341,10335,6,False
+5,10341,10341,0,True

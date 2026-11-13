@@ -1,0 +1,366 @@
+{
+  "content_authority": "Latest user six-stage specification; model/threshold metrics corrected against existing experiment config",
+  "configuration_sha256": "f9d21bcd1b87e9f1ddba62bd1282a7dc5545d57286e0b11947b48bf520438b91",
+  "stages": [
+    "数据构建与预处理",
+    "数据集划分",
+    "不平衡处理",
+    "模型构建",
+    "模型选择与阈值确定",
+    "测试集评价与误差分析"
+  ],
+  "model_selection": "validation_pr_auc",
+  "threshold_selection": "validation_f2",
+  "threshold_tie_break": "larger_threshold",
+  "mandatory_terms_verified": [
+    "原始交易清洗与特征整理",
+    "保留全部正常交易",
+    "随机抽取部分样本",
+    "欺诈率低于1%",
+    "五轮重复分层随机留出",
+    "70%",
+    "15%",
+    "不重采样",
+    "类别权重",
+    "SMOTE",
+    "ADASYN",
+    "NearMiss",
+    "SMOTE+Tomek",
+    "SMOTE+ENN",
+    "随机森林",
+    "多层感知机",
+    "验证集PR-AUC",
+    "最佳epoch权重",
+    "验证集F2",
+    "冻结模型与阈值",
+    "独立测试集",
+    "ROC-AUC",
+    "混淆矩阵",
+    "学习曲线",
+    "误报（FP）",
+    "漏报（FN）"
+  ],
+  "rendered_text_items_verified": 61,
+  "repeated_boxes": "Equal width, height, baseline and gutters verified",
+  "padding_checks": [
+    {
+      "id": "prepare_label",
+      "text": "01",
+      "padding_pt": 21.74
+    },
+    {
+      "id": "prepare_label",
+      "text": "数据构建",
+      "padding_pt": 29.32
+    },
+    {
+      "id": "prepare_label",
+      "text": "与预处理",
+      "padding_pt": 21.38
+    },
+    {
+      "id": "split_label",
+      "text": "02",
+      "padding_pt": 35.74
+    },
+    {
+      "id": "split_label",
+      "text": "数据集划分",
+      "padding_pt": 23.65
+    },
+    {
+      "id": "imbalance_label",
+      "text": "03",
+      "padding_pt": 24.24
+    },
+    {
+      "id": "imbalance_label",
+      "text": "不平衡处理",
+      "padding_pt": 23.65
+    },
+    {
+      "id": "model_label",
+      "text": "04",
+      "padding_pt": 32.74
+    },
+    {
+      "id": "model_label",
+      "text": "模型构建",
+      "padding_pt": 29.32
+    },
+    {
+      "id": "selection_label",
+      "text": "05",
+      "padding_pt": 28.24
+    },
+    {
+      "id": "selection_label",
+      "text": "模型选择",
+      "padding_pt": 29.32
+    },
+    {
+      "id": "selection_label",
+      "text": "与阈值确定",
+      "padding_pt": 23.65
+    },
+    {
+      "id": "evaluation_label",
+      "text": "06",
+      "padding_pt": 34.24
+    },
+    {
+      "id": "evaluation_label",
+      "text": "测试集评价",
+      "padding_pt": 23.65
+    },
+    {
+      "id": "evaluation_label",
+      "text": "与误差分析",
+      "padding_pt": 23.65
+    },
+    {
+      "id": "clean",
+      "text": "原始交易清洗与特征整理",
+      "padding_pt": 10.24
+    },
+    {
+      "id": "clean",
+      "text": "核验字段、标签与交易记录",
+      "padding_pt": 24.74
+    },
+    {
+      "id": "clean",
+      "text": "保留8个原始特征",
+      "padding_pt": 10.24
+    },
+    {
+      "id": "construct",
+      "text": "构建欺诈率低于1%的数据集",
+      "padding_pt": 4.04
+    },
+    {
+      "id": "construct",
+      "text": "保留全部正常交易",
+      "padding_pt": 17.84
+    },
+    {
+      "id": "construct",
+      "text": "从原始欺诈交易中随机抽取部分样本",
+      "padding_pt": 17.84
+    },
+    {
+      "id": "construct",
+      "text": "9,849正常＋94欺诈＝9,943条",
+      "padding_pt": 4.04
+    },
+    {
+      "id": "train",
+      "text": "训练集（70%）",
+      "padding_pt": 7.99
+    },
+    {
+      "id": "train",
+      "text": "6,960条 / 66正例",
+      "padding_pt": 7.99
+    },
+    {
+      "id": "validation",
+      "text": "验证集（15%）",
+      "padding_pt": 7.99
+    },
+    {
+      "id": "validation",
+      "text": "1,491条 / 14正例",
+      "padding_pt": 7.99
+    },
+    {
+      "id": "test",
+      "text": "测试集（15%）",
+      "padding_pt": 7.984
+    },
+    {
+      "id": "test",
+      "text": "1,492条 / 14正例",
+      "padding_pt": 7.99
+    },
+    {
+      "id": "plain",
+      "text": "不重采样",
+      "padding_pt": 3.24
+    },
+    {
+      "id": "balanced",
+      "text": "类别权重",
+      "padding_pt": 3.24
+    },
+    {
+      "id": "smote",
+      "text": "SMOTE",
+      "padding_pt": 3.24
+    },
+    {
+      "id": "adasyn",
+      "text": "ADASYN",
+      "padding_pt": 3.24
+    },
+    {
+      "id": "nearmiss",
+      "text": "NearMiss",
+      "padding_pt": 3.24
+    },
+    {
+      "id": "tomek",
+      "text": "SMOTE+Tomek",
+      "padding_pt": 3.24
+    },
+    {
+      "id": "enn",
+      "text": "SMOTE+ENN",
+      "padding_pt": 3.24
+    },
+    {
+      "id": "rf",
+      "text": "随机森林（RF）",
+      "padding_pt": 9.99
+    },
+    {
+      "id": "rf",
+      "text": "构建传统集成学习基线",
+      "padding_pt": 9.99
+    },
+    {
+      "id": "mlp",
+      "text": "多层感知机（MLP）",
+      "padding_pt": 9.99
+    },
+    {
+      "id": "mlp",
+      "text": "考察神经网络在相同数据下的分类能力",
+      "padding_pt": 9.99
+    },
+    {
+      "id": "checkpoint",
+      "text": "验证集PR-AUC选择模型状态",
+      "padding_pt": 9.24
+    },
+    {
+      "id": "checkpoint",
+      "text": "MLP：恢复最佳epoch权重",
+      "padding_pt": 23.678
+    },
+    {
+      "id": "checkpoint",
+      "text": "RF：比较各策略模型表现",
+      "padding_pt": 9.24
+    },
+    {
+      "id": "threshold",
+      "text": "验证集F2确定分类阈值",
+      "padding_pt": 9.24
+    },
+    {
+      "id": "threshold",
+      "text": "F2最大；并列取较大阈值",
+      "padding_pt": 23.74
+    },
+    {
+      "id": "threshold",
+      "text": "随后冻结模型与阈值",
+      "padding_pt": 9.24
+    },
+    {
+      "id": "metrics",
+      "text": "独立测试集指标评价",
+      "padding_pt": 10.24
+    },
+    {
+      "id": "metrics",
+      "text": "PR-AUC、AP、ROC-AUC",
+      "padding_pt": 24.74
+    },
+    {
+      "id": "metrics",
+      "text": "Precision、Recall、F1、F2、MCC、FPR",
+      "padding_pt": 10.24
+    },
+    {
+      "id": "curves",
+      "text": "曲线与误差案例分析",
+      "padding_pt": 10.24
+    },
+    {
+      "id": "curves",
+      "text": "PR/ROC曲线、混淆矩阵、学习曲线",
+      "padding_pt": 24.74
+    },
+    {
+      "id": "curves",
+      "text": "逐笔TP/FP/TN/FN与FP/FN案例",
+      "padding_pt": 10.24
+    },
+    {
+      "id": "split_rule",
+      "text": "五轮重复分层随机留出；同轮RF与MLP共用划分，冻结行索引",
+      "padding_pt": 8.123
+    },
+    {
+      "id": "preprocessing",
+      "text": "划分后仅用训练集拟合标准化与独热编码；验证/测试集仅应用变换",
+      "padding_pt": 8.089
+    },
+    {
+      "id": "training_only",
+      "text": "仅在训练集上应用采样或类别权重",
+      "padding_pt": 9.146
+    },
+    {
+      "id": "paired_design",
+      "text": "两类模型分别与七种处理策略组合；统一特征、数据划分与评价方式",
+      "padding_pt": 16.05
+    },
+    {
+      "id": "retained_controls",
+      "text": "既有对照保留：EasyEnsemble、Isolation Forest",
+      "padding_pt": 2.96
+    },
+    {
+      "id": "metric_roles",
+      "text": "PR-AUC用于模型选择；F2用于分类阈值选择，侧重召回",
+      "padding_pt": 7.163
+    },
+    {
+      "id": "summary",
+      "text": "五轮汇总均值±样本SD；结合原始交易核查误报（FP）与漏报（FN）",
+      "padding_pt": 18.174
+    },
+    {
+      "id": "learning",
+      "text": "学习曲线仅使用训练与验证数据；分析模型结构与处理策略的影响",
+      "padding_pt": 3.05
+    },
+    {
+      "id": "footer",
+      "text": "标准化与编码仅在训练集拟合；验证集与测试集不重采样",
+      "padding_pt": 4.54
+    },
+    {
+      "id": "footer",
+      "text": "测试结果不回流至参数、特征、模型或阈值选择",
+      "padding_pt": 4.568
+    }
+  ],
+  "pixels": [
+    3733,
+    3933
+  ],
+  "dpi": [
+    399.9992,
+    399.9992
+  ],
+  "notes": [
+    "No experiment was rerun; no source observation or training file was altered.",
+    "Existing figures remain available under their original filenames.",
+    "The original 225-fit count concerns only the old RF nine-method learning-curve analysis and is omitted from the broader RF/MLP workflow.",
+    "Learning curves use training/validation data; test evaluation is kept independent."
+  ]
+}

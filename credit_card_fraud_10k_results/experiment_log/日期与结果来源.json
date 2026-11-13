@@ -1,0 +1,135 @@
+{
+  "compiled_date": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "rows": [
+    {
+      "row": 1,
+      "experiment_content": "数据与五轮划分核验",
+      "display_date": "2026-11-10",
+      "date_basis": "冻结划分记录的created_utc（北京时间2026-11-10）；不是最初构造低正例率数据的日期。",
+      "sources": [
+        "experiment_plan.json",
+        "split_counts.csv",
+        "chapter6_supplement/learning_curves/frozen_training_subsets.json"
+      ]
+    },
+    {
+      "row": 2,
+      "experiment_content": "随机森林基线RF-Plain",
+      "display_date": "2026-11-10（归档）",
+      "date_basis": "原始结果文件的最后修改日，仅作归档日期；没有明确的原始训练起止时间戳。",
+      "sources": [
+        "summary_mean_std.csv",
+        "metrics_by_round.csv",
+        "experiment_plan.json"
+      ]
+    },
+    {
+      "row": 3,
+      "experiment_content": "类别权重与采样策略对比",
+      "display_date": "2026-11-10（归档）",
+      "date_basis": "与原始九组结果一并归档；不是从种子数字推断日期。",
+      "sources": [
+        "summary_mean_std.csv",
+        "experiment_plan.json"
+      ]
+    },
+    {
+      "row": 4,
+      "experiment_content": "集成及无监督对照",
+      "display_date": "2026-11-10（归档）",
+      "date_basis": "原始结果文件归档日。",
+      "sources": [
+        "summary_mean_std.csv",
+        "experiment_plan.json"
+      ]
+    },
+    {
+      "row": 5,
+      "experiment_content": "学习曲线与复现核验",
+      "display_date": "2026-11-10",
+      "date_basis": "学习曲线status.json的completed_utc换算北京时间。",
+      "sources": [
+        "chapter6_supplement/learning_curves/status.json",
+        "chapter6_supplement/learning_curves/learning_curve_summary.csv",
+        "chapter6_supplement/verification.json"
+      ]
+    },
+    {
+      "row": 6,
+      "experiment_content": "Accuracy反例、ROC及误差分析",
+      "display_date": "2026-11-10（补充分析）",
+      "date_basis": "补充分析verification.json更新时间；不表示本日重新训练九组模型。",
+      "sources": [
+        "metrics_by_round.csv",
+        "test_predictions_by_round.csv",
+        "chapter6_supplement/verification.json"
+      ]
+    },
+    {
+      "row": 7,
+      "experiment_content": "MLP训练与七种对应策略对照",
+      "display_date": "2026-11-11",
+      "date_basis": "MLP status.json完成时间；模型冻结后才评分测试集。",
+      "sources": [
+        "nn_rf_comparison/status.json",
+        "nn_rf_comparison/tables/all_model_summary_mean_std.csv",
+        "nn_rf_comparison/tables/paired_pr_auc_for_report.csv",
+        "nn_rf_comparison/tables/training_summary.csv"
+      ]
+    },
+    {
+      "row": 8,
+      "experiment_content": "RF模型解释：SHAP与置换重要性",
+      "display_date": "2026-11-12",
+      "date_basis": "SHAP运行清单created_utc换算北京时间，清单在本次计算完成后保存。",
+      "sources": [
+        "chapter7_explainability/run_manifest.json",
+        "chapter7_explainability/qa/numerical_verification.json",
+        "chapter7_explainability/tables/feature_importance_summary.csv"
+      ]
+    },
+    {
+      "row": 9,
+      "experiment_content": "风险分组图与业务解释",
+      "display_date": "2026-11-12（补充分析）",
+      "date_basis": "风险分组核验文件最后修改日，为补充分析日期，不是模型重训日期。",
+      "sources": [
+        "chapter7_explainability/qa/risk_groups_numerical_verification.json",
+        "chapter7_explainability/tables/business_group_evidence.csv"
+      ]
+    },
+    {
+      "row": 10,
+      "experiment_content": "实验日志与交付记录核对",
+      "display_date": "2026-11-13（整理）",
+      "date_basis": "当前用户/客户端日期2026-11-13；此行仅记录本轮日志整理。",
+      "sources": [
+        "experiment_plan.json",
+        "nn_rf_comparison/status.json",
+        "chapter7_explainability/qa/delivery_verification.json"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "chapter6_supplement/learning_curves/frozen_training_subsets.json": "cf5d0883d74001a96e171bca6fd832fbd2c076c500c2fee2dd12ab04ebd87664",
+    "chapter6_supplement/learning_curves/learning_curve_summary.csv": "f34b82d8e25bf2c737a5396b31c4cb106aae4dd19bca3d3448de5d6300025dc4",
+    "chapter6_supplement/learning_curves/status.json": "8c0f11b08fb7ea46fd67dcfe85ab4bb5c516a77d3583c27af3eab64d5d8df724",
+    "chapter6_supplement/verification.json": "78b7a8609dc0754317bdd22442a4d05fcd59783f38de049fc38156494b2ab6df",
+    "chapter7_explainability/qa/delivery_verification.json": "6f2010b4596ff6f12044132d8c16472aad8019e4b09d276cacfe821e967b0737",
+    "chapter7_explainability/qa/numerical_verification.json": "7d67283733d92fbc684245820966883ec884a53d6180e9c21774c1749656d6e0",
+    "chapter7_explainability/qa/risk_groups_numerical_verification.json": "15d6c2bfb66d7d23d46fc21e7dfba957cc971d267c745c0fd91ce561258cf513",
+    "chapter7_explainability/run_manifest.json": "e446aec0f9b5454f71dfea80adc06d6ce6aed02e63846dab92d29589d5462f8d",
+    "chapter7_explainability/tables/business_group_evidence.csv": "bfdb68c6bc0e8c5a2a66c881f11015ce9ffd88212fe84d799c4cf64aea154918",
+    "chapter7_explainability/tables/feature_importance_summary.csv": "9b6e13596ba3b985e81d8b36fc944d663dc9d5a7d916dd2cab84974eb73f60dd",
+    "experiment_plan.json": "4e38a5d910154d92060cb1b90969b96f3bdd0483dcea05721ddcd5aff5b2612e",
+    "metrics_by_round.csv": "9f53ff1b1044a73612af23b71587d08d68c106144a52020573b03587f1bde884",
+    "nn_rf_comparison/status.json": "944c164428857ef4670b28e22acf027cadc4dcd79d21cbbf32c84c743ef7b103",
+    "nn_rf_comparison/tables/all_model_summary_mean_std.csv": "9ee588aff001275af5fcbd889724dda68070af3362459b4ecb01c24b1a380223",
+    "nn_rf_comparison/tables/paired_pr_auc_for_report.csv": "611ff1ddf5099abc22e37315ae06775e002166299ecef6878f2d51b4ee8b41f3",
+    "nn_rf_comparison/tables/training_summary.csv": "94ad1d2d0dcb501e245cac882f8d783324f1128d542d2c312849df250dca20e8",
+    "split_counts.csv": "efc92b4af8f08ee3b70ac6fb504ce4af16a1745a7cfecdb93c3c2dc9b5f84371",
+    "summary_mean_std.csv": "1cfba3645271028fa4de7324aaff84c0df00ae44c764c36bf9ecaff2d485a5de",
+    "test_predictions_by_round.csv": "02c7521ebcc4eba2d7894cc8ab268ba621ed2c490b6f9fd63d819c19b94489cc"
+  }
+}

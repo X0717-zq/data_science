@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "checked_local_links": 19,
+  "low_fpr_points_independently_verified": 45,
+  "pr_envelope_rounds_verified": 45,
+  "preserved_original_source_hashes": true,
+  "copied_existing_figures_identical": true,
+  "new_figures": [
+    {
+      "figure": "fig6_1_workflow",
+      "pixels": [
+        2160,
+        1950
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "visually_reviewed": true,
+      "font_audit_passed": true,
+      "collision_audit_passed": true
+    },
+    {
+      "figure": "fig6_2_pr_family",
+      "pixels": [
+        2160,
+        1590
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "visually_reviewed": true,
+      "font_audit_passed": true,
+      "collision_audit_passed": true
+    }
+  ],
+  "preflight_warnings_review": [
+    "PowerShell dollar variables were mistaken for mathtext; PDF font audit passed.",
+    "TIFF was not requested; PNG/PDF/SVG provided.",
+    "DPI comes from configuration; actual PNG metadata verified at 300 dpi."
+  ],
+  "report_characters": 21006
+}

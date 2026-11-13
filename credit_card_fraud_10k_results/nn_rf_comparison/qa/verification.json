@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "verified_checkpoints": 35,
+  "verified_nn_prediction_rows": 52220,
+  "compared_rf_rounds": 35,
+  "original_reference_rounds": 45,
+  "original_sources_preserved": true,
+  "preprocessing_fitted_on_train_only": true,
+  "frozen_indices_exactly_matched": true,
+  "best_epochs_recomputed_from_validation_history": true,
+  "validation_thresholds_recomputed": true,
+  "test_predictions_reloaded_from_checkpoints": true,
+  "all_metrics_and_sample_SD_recomputed": true,
+  "no_test_columns_in_training_history": true
+}

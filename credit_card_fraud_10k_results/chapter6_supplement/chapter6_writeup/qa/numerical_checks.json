@@ -1,0 +1,13 @@
+{
+  "source_hashes_unchanged": true,
+  "original_models_retrained": false,
+  "model_rounds": 45,
+  "prediction_rows": 67140,
+  "counterexample_test_n": 1492,
+  "counterexample_test_fraud": 14,
+  "low_fpr_diagnostic_rows": 45,
+  "model_count": 9,
+  "hyperparameter_search_performed": false,
+  "pr_display": "45 raw PR curves: max precision for duplicate recall, reverse cumulative maximum, common-grid interpolation; not used for AUC calculation",
+  "claim_boundary": "Repeated holdouts; sample SD, not independent CI; current hardware snapshot identified separately"
+}

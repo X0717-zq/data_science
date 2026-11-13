@@ -1,0 +1,253 @@
+﻿method,outcome,feature,prediction_occurrences,unique_transactions,mean,median,q25,q75
+RF-Plain,TN,amount,7379,5431,176.5117387179835,122.22,51.22,241.3
+RF-Plain,TN,transaction_hour,7379,5431,11.874237701585582,12.0,6.0,18.0
+RF-Plain,TN,foreign_transaction,7379,5431,0.09039165198536388,0.0,0.0,0.0
+RF-Plain,TN,location_mismatch,7379,5431,0.08456430410624746,0.0,0.0,0.0
+RF-Plain,TN,device_trust_score,7379,5431,62.3047838460496,62.0,44.0,81.0
+RF-Plain,TN,velocity_last_24h,7379,5431,1.9556850521750915,2.0,1.0,3.0
+RF-Plain,TN,cardholder_age,7379,5431,43.357772055834126,43.0,31.0,56.0
+RF-Plain,TP,amount,59,44,183.9230508474576,118.94,41.375,224.29500000000002
+RF-Plain,TP,transaction_hour,59,44,2.4237288135593222,1.0,0.0,2.5
+RF-Plain,TP,foreign_transaction,59,44,0.5084745762711864,1.0,0.0,1.0
+RF-Plain,TP,location_mismatch,59,44,0.4067796610169492,0.0,0.0,1.0
+RF-Plain,TP,device_trust_score,59,44,33.57627118644068,31.0,27.0,34.0
+RF-Plain,TP,velocity_last_24h,59,44,3.2542372881355934,3.0,2.0,5.0
+RF-Plain,TP,cardholder_age,59,44,43.54237288135593,44.0,30.5,58.5
+RF-Plain,FN,amount,11,10,233.20909090909092,196.84,175.215,292.975
+RF-Plain,FN,transaction_hour,11,10,10.0,6.0,3.0,19.0
+RF-Plain,FN,foreign_transaction,11,10,0.7272727272727273,1.0,0.5,1.0
+RF-Plain,FN,location_mismatch,11,10,0.5454545454545454,1.0,0.0,1.0
+RF-Plain,FN,device_trust_score,11,10,47.63636363636363,39.0,37.5,55.5
+RF-Plain,FN,velocity_last_24h,11,10,4.181818181818182,5.0,4.0,5.0
+RF-Plain,FN,cardholder_age,11,10,44.27272727272727,40.0,28.0,64.0
+RF-Balanced,TN,amount,7364,5420,176.60647474198805,122.12,51.1925,241.4775
+RF-Balanced,TN,transaction_hour,7364,5420,11.90019011406844,12.0,6.0,18.0
+RF-Balanced,TN,foreign_transaction,7364,5420,0.08881042911461162,0.0,0.0,0.0
+RF-Balanced,TN,location_mismatch,7364,5420,0.08460076045627377,0.0,0.0,0.0
+RF-Balanced,TN,device_trust_score,7364,5420,62.334600760456276,62.0,44.0,81.0
+RF-Balanced,TN,velocity_last_24h,7364,5420,1.954780010863661,2.0,1.0,3.0
+RF-Balanced,TN,cardholder_age,7364,5420,43.339760999456814,43.0,31.0,56.0
+RF-Balanced,FP,amount,26,23,209.22538461538463,171.76999999999998,102.06,247.505
+RF-Balanced,FP,transaction_hour,26,23,2.9615384615384617,1.0,1.0,2.0
+RF-Balanced,FP,foreign_transaction,26,23,0.7692307692307693,1.0,1.0,1.0
+RF-Balanced,FP,location_mismatch,26,23,0.15384615384615385,0.0,0.0,0.0
+RF-Balanced,FP,device_trust_score,26,23,52.57692307692308,48.5,43.5,54.0
+RF-Balanced,FP,velocity_last_24h,26,23,2.6923076923076925,2.5,2.0,3.75
+RF-Balanced,FP,cardholder_age,26,23,47.88461538461539,48.0,36.0,60.75
+RF-Balanced,TP,amount,58,42,186.56362068965515,121.24000000000001,46.95,239.195
+RF-Balanced,TP,transaction_hour,58,42,2.9482758620689653,1.0,0.0,3.0
+RF-Balanced,TP,foreign_transaction,58,42,0.5517241379310345,1.0,0.0,1.0
+RF-Balanced,TP,location_mismatch,58,42,0.39655172413793105,0.0,0.0,1.0
+RF-Balanced,TP,device_trust_score,58,42,32.91379310344828,31.0,27.0,34.0
+RF-Balanced,TP,velocity_last_24h,58,42,3.2241379310344827,3.0,2.0,5.0
+RF-Balanced,TP,cardholder_age,58,42,43.310344827586206,44.0,31.0,56.75
+RF-Balanced,FN,amount,12,12,216.33916666666664,175.215,23.3425,247.71749999999997
+RF-Balanced,FN,transaction_hour,12,12,6.833333333333333,2.5,1.75,10.25
+RF-Balanced,FN,foreign_transaction,12,12,0.5,0.5,0.0,1.0
+RF-Balanced,FN,location_mismatch,12,12,0.5833333333333334,1.0,0.0,1.0
+RF-Balanced,FN,device_trust_score,12,12,49.666666666666664,41.5,37.75,55.25
+RF-Balanced,FN,velocity_last_24h,12,12,4.25,5.0,4.75,5.0
+RF-Balanced,FN,cardholder_age,12,12,45.333333333333336,42.0,27.0,63.5
+SMOTE,TN,amount,7336,5404,176.29974100327152,122.065,51.1175,241.2
+SMOTE,TN,transaction_hour,7336,5404,11.916575790621593,12.0,6.0,18.0
+SMOTE,TN,foreign_transaction,7336,5404,0.0868320610687023,0.0,0.0,0.0
+SMOTE,TN,location_mismatch,7336,5404,0.08328789531079607,0.0,0.0,0.0
+SMOTE,TN,device_trust_score,7336,5404,62.38604143947656,62.0,44.0,81.0
+SMOTE,TN,velocity_last_24h,7336,5404,1.9492911668484187,2.0,1.0,3.0
+SMOTE,TN,cardholder_age,7336,5404,43.31270447110142,43.0,30.75,56.0
+SMOTE,FP,amount,54,47,233.98222222222216,205.245,101.2425,307.765
+SMOTE,FP,transaction_hour,54,47,5.37037037037037,1.0,0.25,10.5
+SMOTE,FP,foreign_transaction,54,47,0.6851851851851852,1.0,0.0,1.0
+SMOTE,FP,location_mismatch,54,47,0.2962962962962963,0.0,0.0,1.0
+SMOTE,FP,device_trust_score,54,47,50.648148148148145,48.0,43.0,54.0
+SMOTE,FP,velocity_last_24h,54,47,3.0555555555555554,3.0,2.0,4.75
+SMOTE,FP,cardholder_age,54,47,49.2037037037037,49.0,38.5,59.0
+SMOTE,TP,amount,60,44,196.718,118.985,42.8125,265.23
+SMOTE,TP,transaction_hour,60,44,2.2666666666666666,1.0,0.0,2.25
+SMOTE,TP,foreign_transaction,60,44,0.55,1.0,0.0,1.0
+SMOTE,TP,location_mismatch,60,44,0.38333333333333336,0.0,0.0,1.0
+SMOTE,TP,device_trust_score,60,44,34.483333333333334,31.0,27.0,35.25
+SMOTE,TP,velocity_last_24h,60,44,3.2666666666666666,3.0,2.0,5.0
+SMOTE,TP,cardholder_age,60,44,43.53333333333333,44.0,30.0,59.0
+SMOTE,FN,amount,10,9,161.368,178.43,61.4275,209.815
+SMOTE,FN,transaction_hour,10,9,11.7,11.5,3.75,19.0
+SMOTE,FN,foreign_transaction,10,9,0.5,0.5,0.0,1.0
+SMOTE,FN,location_mismatch,10,9,0.7,1.0,0.25,1.0
+SMOTE,FN,device_trust_score,10,9,43.6,38.5,37.0,51.0
+SMOTE,FN,velocity_last_24h,10,9,4.2,5.0,5.0,5.0
+SMOTE,FN,cardholder_age,10,9,44.4,46.5,28.0,60.5
+ADASYN,TN,amount,7319,5392,176.3776923076923,122.09,51.16,241.3
+ADASYN,TN,transaction_hour,7319,5392,11.929498565377784,12.0,6.0,18.0
+ADASYN,TN,foreign_transaction,7319,5392,0.08539417953272305,0.0,0.0,0.0
+ADASYN,TN,location_mismatch,7319,5392,0.08293482716218063,0.0,0.0,0.0
+ADASYN,TN,device_trust_score,7319,5392,62.376690804754745,62.0,44.0,81.0
+ADASYN,TN,velocity_last_24h,7319,5392,1.9478070774695997,2.0,1.0,3.0
+ADASYN,TN,cardholder_age,7319,5392,43.32955321765269,43.0,31.0,56.0
+ADASYN,FP,amount,71,62,212.13535211267606,145.62,80.475,264.95
+ADASYN,FP,transaction_hour,71,62,5.605633802816901,2.0,1.0,11.0
+ADASYN,FP,foreign_transaction,71,62,0.6901408450704225,1.0,0.0,1.0
+ADASYN,FP,location_mismatch,71,62,0.28169014084507044,0.0,0.0,1.0
+ADASYN,FP,device_trust_score,71,62,54.42253521126761,49.0,42.0,59.0
+ADASYN,FP,velocity_last_24h,71,62,2.943661971830986,3.0,2.0,4.0
+ADASYN,FP,cardholder_age,71,62,46.056338028169016,46.0,36.0,59.0
+ADASYN,TP,amount,60,44,182.86599999999999,118.985,42.8125,233.925
+ADASYN,TP,transaction_hour,60,44,2.283333333333333,1.0,0.0,3.0
+ADASYN,TP,foreign_transaction,60,44,0.55,1.0,0.0,1.0
+ADASYN,TP,location_mismatch,60,44,0.4,0.0,0.0,1.0
+ADASYN,TP,device_trust_score,60,44,34.483333333333334,31.0,27.0,35.25
+ADASYN,TP,velocity_last_24h,60,44,3.2666666666666666,3.0,2.0,5.0
+ADASYN,TP,cardholder_age,60,44,43.96666666666667,44.0,30.75,59.0
+ADASYN,FN,amount,10,10,244.47999999999996,187.635,61.4275,234.9075
+ADASYN,FN,transaction_hour,10,10,11.6,11.5,3.75,19.0
+ADASYN,FN,foreign_transaction,10,10,0.5,0.5,0.0,1.0
+ADASYN,FN,location_mismatch,10,10,0.6,1.0,0.0,1.0
+ADASYN,FN,device_trust_score,10,10,43.6,38.5,37.0,51.0
+ADASYN,FN,velocity_last_24h,10,10,4.2,5.0,5.0,5.0
+ADASYN,FN,cardholder_age,10,10,41.8,35.5,27.0,60.5
+NearMiss,TN,amount,7321,5389,174.4630856440377,121.77,50.99,238.61
+NearMiss,TN,transaction_hour,7321,5389,11.938942767381505,12.0,6.0,18.0
+NearMiss,TN,foreign_transaction,7321,5389,0.09015161863133452,0.0,0.0,0.0
+NearMiss,TN,location_mismatch,7321,5389,0.08332195055320311,0.0,0.0,0.0
+NearMiss,TN,device_trust_score,7321,5389,62.28834858625871,62.0,44.0,81.0
+NearMiss,TN,velocity_last_24h,7321,5389,1.958885398169649,2.0,1.0,3.0
+NearMiss,TN,cardholder_age,7321,5389,43.30419341619997,43.0,31.0,56.0
+NearMiss,FP,amount,69,61,416.314347826087,443.39,304.93,566.35
+NearMiss,FP,transaction_hour,69,61,4.420289855072464,2.0,0.0,3.0
+NearMiss,FP,foreign_transaction,69,61,0.2028985507246377,0.0,0.0,0.0
+NearMiss,FP,location_mismatch,69,61,0.2463768115942029,0.0,0.0,0.0
+NearMiss,FP,device_trust_score,69,61,63.56521739130435,73.0,31.0,88.0
+NearMiss,FP,velocity_last_24h,69,61,1.7971014492753623,2.0,1.0,3.0
+NearMiss,FP,cardholder_age,69,61,48.82608695652174,49.0,37.0,64.0
+NearMiss,TP,amount,40,31,239.42475,177.91,78.1425,349.4175
+NearMiss,TP,transaction_hour,40,31,2.225,1.0,0.0,2.0
+NearMiss,TP,foreign_transaction,40,31,0.525,1.0,0.0,1.0
+NearMiss,TP,location_mismatch,40,31,0.375,0.0,0.0,1.0
+NearMiss,TP,device_trust_score,40,31,32.55,31.0,27.0,33.0
+NearMiss,TP,velocity_last_24h,40,31,2.925,3.0,1.75,5.0
+NearMiss,TP,cardholder_age,40,31,43.325,44.0,30.75,58.25
+NearMiss,FN,amount,30,26,127.99233333333335,112.21000000000001,32.305,196.84
+NearMiss,FN,transaction_hour,30,26,5.466666666666667,3.0,1.0,8.25
+NearMiss,FN,foreign_transaction,30,26,0.5666666666666667,1.0,0.0,1.0
+NearMiss,FN,location_mismatch,30,26,0.5,0.5,0.0,1.0
+NearMiss,FN,device_trust_score,30,26,40.1,37.0,32.5,42.75
+NearMiss,FN,velocity_last_24h,30,26,4.033333333333333,5.0,3.0,5.0
+NearMiss,FN,cardholder_age,30,26,44.1,45.0,29.25,59.0
+SMOTE+Tomek,TN,amount,7345,5410,176.58639210347175,122.1,51.15,241.4
+SMOTE+Tomek,TN,transaction_hour,7345,5410,11.907556160653506,12.0,6.0,18.0
+SMOTE+Tomek,TN,foreign_transaction,7345,5410,0.08727025187202178,0.0,0.0,0.0
+SMOTE+Tomek,TN,location_mismatch,7345,5410,0.08359428182437031,0.0,0.0,0.0
+SMOTE+Tomek,TN,device_trust_score,7345,5410,62.370456092579985,62.0,44.0,81.0
+SMOTE+Tomek,TN,velocity_last_24h,7345,5410,1.9504424778761063,2.0,1.0,3.0
+SMOTE+Tomek,TN,cardholder_age,7345,5410,43.31695030633084,43.0,31.0,56.0
+SMOTE+Tomek,FP,amount,45,39,198.73088888888893,194.9,100.97,255.69
+SMOTE+Tomek,FP,transaction_hour,45,39,5.533333333333333,1.0,1.0,11.0
+SMOTE+Tomek,FP,foreign_transaction,45,39,0.7333333333333333,1.0,0.0,1.0
+SMOTE+Tomek,FP,location_mismatch,45,39,0.28888888888888886,0.0,0.0,1.0
+SMOTE+Tomek,FP,device_trust_score,45,39,50.84444444444444,48.0,43.0,54.0
+SMOTE+Tomek,FP,velocity_last_24h,45,39,3.088888888888889,3.0,2.0,5.0
+SMOTE+Tomek,FP,cardholder_age,45,39,49.68888888888889,49.0,40.0,59.0
+SMOTE+Tomek,TP,amount,60,44,196.718,118.985,42.8125,265.23
+SMOTE+Tomek,TP,transaction_hour,60,44,2.2666666666666666,1.0,0.0,2.25
+SMOTE+Tomek,TP,foreign_transaction,60,44,0.55,1.0,0.0,1.0
+SMOTE+Tomek,TP,location_mismatch,60,44,0.38333333333333336,0.0,0.0,1.0
+SMOTE+Tomek,TP,device_trust_score,60,44,34.483333333333334,31.0,27.0,35.25
+SMOTE+Tomek,TP,velocity_last_24h,60,44,3.2666666666666666,3.0,2.0,5.0
+SMOTE+Tomek,TP,cardholder_age,60,44,43.53333333333333,44.0,30.0,59.0
+SMOTE+Tomek,FN,amount,10,9,161.368,178.43,61.4275,209.815
+SMOTE+Tomek,FN,transaction_hour,10,9,11.7,11.5,3.75,19.0
+SMOTE+Tomek,FN,foreign_transaction,10,9,0.5,0.5,0.0,1.0
+SMOTE+Tomek,FN,location_mismatch,10,9,0.7,1.0,0.25,1.0
+SMOTE+Tomek,FN,device_trust_score,10,9,43.6,38.5,37.0,51.0
+SMOTE+Tomek,FN,velocity_last_24h,10,9,4.2,5.0,5.0,5.0
+SMOTE+Tomek,FN,cardholder_age,10,9,44.4,46.5,28.0,60.5
+SMOTE+ENN,TN,amount,7311,5386,176.4880713992614,122.1,51.135,241.3
+SMOTE+ENN,TN,transaction_hour,7311,5386,11.922582410067022,12.0,6.0,18.0
+SMOTE+ENN,TN,foreign_transaction,7311,5386,0.08466694022705512,0.0,0.0,0.0
+SMOTE+ENN,TN,location_mismatch,7311,5386,0.08165777595404186,0.0,0.0,0.0
+SMOTE+ENN,TN,device_trust_score,7311,5386,62.41198194501436,62.0,44.0,81.0
+SMOTE+ENN,TN,velocity_last_24h,7311,5386,1.9462453836684448,2.0,1.0,3.0
+SMOTE+ENN,TN,cardholder_age,7311,5386,43.31910819313364,43.0,31.0,56.0
+SMOTE+ENN,FP,amount,79,68,198.29936708860757,145.62,72.195,264.95
+SMOTE+ENN,FP,transaction_hour,79,68,6.886075949367089,4.0,1.0,14.0
+SMOTE+ENN,FP,foreign_transaction,79,68,0.6962025316455697,1.0,0.0,1.0
+SMOTE+ENN,FP,location_mismatch,79,68,0.379746835443038,0.0,0.0,1.0
+SMOTE+ENN,FP,device_trust_score,79,68,51.962025316455694,48.0,41.0,57.0
+SMOTE+ENN,FP,velocity_last_24h,79,68,2.9873417721518987,3.0,2.0,4.0
+SMOTE+ENN,FP,cardholder_age,79,68,46.74683544303797,47.0,36.0,59.0
+SMOTE+ENN,TP,amount,58,42,168.12758620689655,118.94,42.637499999999996,227.7925
+SMOTE+ENN,TP,transaction_hour,58,42,2.4482758620689653,1.0,0.0,3.0
+SMOTE+ENN,TP,foreign_transaction,58,42,0.5862068965517241,1.0,0.0,1.0
+SMOTE+ENN,TP,location_mismatch,58,42,0.39655172413793105,0.0,0.0,1.0
+SMOTE+ENN,TP,device_trust_score,58,42,34.8448275862069,31.0,27.25,34.75
+SMOTE+ENN,TP,velocity_last_24h,58,42,3.396551724137931,3.0,2.0,5.0
+SMOTE+ENN,TP,cardholder_age,58,42,43.53448275862069,44.0,30.0,59.0
+SMOTE+ENN,FN,amount,12,11,305.44666666666666,187.635,138.595,278.03000000000003
+SMOTE+ENN,FN,transaction_hour,12,11,9.25,4.5,2.0,19.0
+SMOTE+ENN,FN,foreign_transaction,12,11,0.3333333333333333,0.0,0.0,1.0
+SMOTE+ENN,FN,location_mismatch,12,11,0.5833333333333334,1.0,0.0,1.0
+SMOTE+ENN,FN,device_trust_score,12,11,40.333333333333336,37.5,36.5,39.0
+SMOTE+ENN,FN,velocity_last_24h,12,11,3.4166666666666665,5.0,1.5,5.0
+SMOTE+ENN,FN,cardholder_age,12,11,44.25,45.5,30.0,55.5
+EasyEnsemble,TN,amount,7329,5398,176.0155055259926,122.04,51.15,241.06
+EasyEnsemble,TN,transaction_hour,7329,5398,11.94951562286806,12.0,6.0,18.0
+EasyEnsemble,TN,foreign_transaction,7329,5398,0.08677855096193204,0.0,0.0,0.0
+EasyEnsemble,TN,location_mismatch,7329,5398,0.08459544276163188,0.0,0.0,0.0
+EasyEnsemble,TN,device_trust_score,7329,5398,62.424205212170826,62.0,44.0,81.0
+EasyEnsemble,TN,velocity_last_24h,7329,5398,1.9540182835311775,2.0,1.0,3.0
+EasyEnsemble,TN,cardholder_age,7329,5398,43.324055123482054,43.0,31.0,56.0
+EasyEnsemble,FP,amount,61,50,261.51311475409835,203.35,93.51,427.91
+EasyEnsemble,FP,transaction_hour,61,50,2.1639344262295084,1.0,0.0,3.0
+EasyEnsemble,FP,foreign_transaction,61,50,0.6229508196721312,1.0,0.0,1.0
+EasyEnsemble,FP,location_mismatch,61,50,0.11475409836065574,0.0,0.0,0.0
+EasyEnsemble,FP,device_trust_score,61,50,47.40983606557377,44.0,33.0,54.0
+EasyEnsemble,FP,velocity_last_24h,61,50,2.360655737704918,2.0,1.0,3.0
+EasyEnsemble,FP,cardholder_age,61,50,47.16393442622951,48.0,36.0,61.0
+EasyEnsemble,TP,amount,56,42,187.88267857142858,118.985,42.8125,265.23
+EasyEnsemble,TP,transaction_hour,56,42,2.25,1.0,0.0,2.25
+EasyEnsemble,TP,foreign_transaction,56,42,0.5357142857142857,1.0,0.0,1.0
+EasyEnsemble,TP,location_mismatch,56,42,0.35714285714285715,0.0,0.0,1.0
+EasyEnsemble,TP,device_trust_score,56,42,33.035714285714285,31.0,27.0,34.0
+EasyEnsemble,TP,velocity_last_24h,56,42,3.3035714285714284,3.0,2.0,5.0
+EasyEnsemble,TP,cardholder_age,56,42,43.625,44.0,30.75,59.0
+EasyEnsemble,FN,amount,14,12,206.80928571428566,178.43,32.97,209.815
+EasyEnsemble,FN,transaction_hour,14,12,9.071428571428571,6.0,2.25,17.75
+EasyEnsemble,FN,foreign_transaction,14,12,0.5714285714285714,1.0,0.0,1.0
+EasyEnsemble,FN,location_mismatch,14,12,0.7142857142857143,1.0,0.25,1.0
+EasyEnsemble,FN,device_trust_score,14,12,46.785714285714285,39.0,37.0,55.0
+EasyEnsemble,FN,velocity_last_24h,14,12,3.7857142857142856,5.0,2.5,5.0
+EasyEnsemble,FN,cardholder_age,14,12,43.785714285714285,45.0,27.0,60.5
+Isolation Forest,TN,amount,7119,5250,169.9562831858407,120.17,50.245,234.95999999999998
+Isolation Forest,TN,transaction_hour,7119,5250,11.828768085405253,12.0,6.0,18.0
+Isolation Forest,TN,foreign_transaction,7119,5250,0.07641522685770473,0.0,0.0,0.0
+Isolation Forest,TN,location_mismatch,7119,5250,0.06433487849417054,0.0,0.0,0.0
+Isolation Forest,TN,device_trust_score,7119,5250,62.117853631127964,62.0,44.0,80.0
+Isolation Forest,TN,velocity_last_24h,7119,5250,1.952661890714988,2.0,1.0,3.0
+Isolation Forest,TN,cardholder_age,7119,5250,43.2850119398792,43.0,31.0,56.0
+Isolation Forest,FP,amount,271,224,354.43232472324723,276.69,101.56,539.9449999999999
+Isolation Forest,FP,transaction_hour,271,224,12.918819188191883,14.0,6.0,20.0
+Isolation Forest,FP,foreign_transaction,271,224,0.4797047970479705,0.0,0.0,1.0
+Isolation Forest,FP,location_mismatch,271,224,0.6236162361623616,1.0,0.0,1.0
+Isolation Forest,FP,device_trust_score,271,224,67.09225092250922,69.0,45.5,90.0
+Isolation Forest,FP,velocity_last_24h,271,224,2.081180811808118,2.0,1.0,3.0
+Isolation Forest,FP,cardholder_age,271,224,45.2140221402214,47.0,28.5,62.0
+Isolation Forest,FN,amount,32,27,207.9690625,118.985,53.5525,258.59749999999997
+Isolation Forest,FN,transaction_hour,32,27,1.40625,1.0,0.0,3.0
+Isolation Forest,FN,foreign_transaction,32,27,0.28125,0.0,0.0,1.0
+Isolation Forest,FN,location_mismatch,32,27,0.21875,0.0,0.0,0.0
+Isolation Forest,FN,device_trust_score,32,27,30.875,30.5,27.0,34.0
+Isolation Forest,FN,velocity_last_24h,32,27,3.46875,3.0,2.0,5.0
+Isolation Forest,FN,cardholder_age,32,27,39.71875,37.5,30.75,46.5
+Isolation Forest,TP,amount,38,28,177.9407894736842,174.695,39.495,234.9075
+Isolation Forest,TP,transaction_hour,38,28,5.473684210526316,2.0,1.0,8.25
+Isolation Forest,TP,foreign_transaction,38,28,0.7631578947368421,1.0,1.0,1.0
+Isolation Forest,TP,location_mismatch,38,28,0.6052631578947368,1.0,0.0,1.0
+Isolation Forest,TP,device_trust_score,38,28,39.921052631578945,34.5,31.0,42.75
+Isolation Forest,TP,velocity_last_24h,38,28,3.3421052631578947,3.5,2.0,5.0
+Isolation Forest,TP,cardholder_age,38,28,46.973684210526315,50.0,28.5,63.0
+RF-Plain,FP,amount,11,11,317.25636363636363,220.72,108.92500000000001,438.92999999999995
+RF-Plain,FP,transaction_hour,11,11,8.181818181818182,8.0,2.5,12.0
+RF-Plain,FP,foreign_transaction,11,11,0.6363636363636364,1.0,0.0,1.0
+RF-Plain,FP,location_mismatch,11,11,0.2727272727272727,0.0,0.0,0.5
+RF-Plain,FP,device_trust_score,11,11,59.27272727272727,45.0,41.0,81.5
+RF-Plain,FP,velocity_last_24h,11,11,3.090909090909091,4.0,1.0,5.0
+RF-Plain,FP,cardholder_age,11,11,42.0,36.0,22.0,66.0

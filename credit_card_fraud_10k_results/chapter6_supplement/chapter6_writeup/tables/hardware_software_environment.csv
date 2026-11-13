@@ -1,0 +1,13 @@
+﻿项目,配置,依据
+操作系统（原日志）,Windows-10-10.0.26200-SP0,原实验日志记录
+操作系统（本次复核）,Microsoft Windows 11 Home China,本次补充复核机器快照
+CPU,12th Gen Intel(R) Core(TM) i5-1240P,本次补充复核机器快照
+CPU核心/逻辑处理器,12 / 16,本次补充复核机器快照
+物理内存,15.64 GiB,本次补充复核机器快照
+python,3.10.11,原实验日志记录
+numpy,2.2.6,原实验日志记录
+pandas,2.3.3,原实验日志记录
+scikit_learn,1.7.2,原实验日志记录
+imbalanced_learn,0.14.2,原实验日志记录
+matplotlib,3.10.9,原实验日志记录
+执行方式,CPU；模型n_jobs=1,模型代码；未调用GPU训练

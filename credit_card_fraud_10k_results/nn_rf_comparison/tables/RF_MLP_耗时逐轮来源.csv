@@ -1,0 +1,11 @@
+﻿method,repeat,model_seed,seconds,source_field,source
+RF-Plain,1,20261110,0.7448355001397431,fit_and_score_seconds,chapter6_supplement/learning_curves/learning_curve_metrics.csv; fraction=1.0
+RF-Plain,2,20261112,0.9067092002369463,fit_and_score_seconds,chapter6_supplement/learning_curves/learning_curve_metrics.csv; fraction=1.0
+RF-Plain,3,20261114,0.68991560023278,fit_and_score_seconds,chapter6_supplement/learning_curves/learning_curve_metrics.csv; fraction=1.0
+RF-Plain,4,20261116,0.8279953999444842,fit_and_score_seconds,chapter6_supplement/learning_curves/learning_curve_metrics.csv; fraction=1.0
+RF-Plain,5,20261118,0.7473599002696574,fit_and_score_seconds,chapter6_supplement/learning_curves/learning_curve_metrics.csv; fraction=1.0
+MLP-Plain,1,20261110,14.461752699688077,training_seconds,nn_rf_comparison/tables/training_summary.csv
+MLP-Plain,2,20261112,21.321638700086623,training_seconds,nn_rf_comparison/tables/training_summary.csv
+MLP-Plain,3,20261114,20.500571900047362,training_seconds,nn_rf_comparison/tables/training_summary.csv
+MLP-Plain,4,20261116,13.144857599865645,training_seconds,nn_rf_comparison/tables/training_summary.csv
+MLP-Plain,5,20261118,26.100155199877918,training_seconds,nn_rf_comparison/tables/training_summary.csv

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "verified_model_rounds": 45,
+  "prediction_rows": 67140,
+  "unique_transactions": 5485,
+  "error_occurrences": 828,
+  "all_original_metrics_reproduced": true,
+  "source_files_unchanged": true,
+  "confusion_sum_per_method": 7460,
+  "positive_occurrences_per_method": 70,
+  "note": "Five repeated test sets overlap; pooled counts describe prediction occurrences, not independent transactions."
+}

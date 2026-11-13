@@ -1,0 +1,19 @@
+{
+  "backend": "Python / matplotlib",
+  "archetype": "quantitative comparison grids",
+  "exports": [
+    "png",
+    "pdf",
+    "svg"
+  ],
+  "dpi": 300,
+  "uncertainty": "sample SD over five repeated holdouts; not a CI",
+  "roles": {
+    "roc_curves_mean_and_low_fpr": "overall ranking and low-FPR discrimination",
+    "roc_curves_by_model": "round-to-round ROC variability for every method",
+    "confusion_matrices_nine_models": "operating-threshold error counts and class-conditional rates",
+    "fp_fn_error_rates": "paired-round false-alarm and missed-fraud rates",
+    "learning_curves_pr_auc": "training-size sensitivity and training-validation gap"
+  },
+  "omissions": "No requested methods or rounds omitted; no significance claims."
+}

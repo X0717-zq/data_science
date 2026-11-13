@@ -1,0 +1,3 @@
+﻿模型,主要参数,PR-AUC（主指标）,ROC-AUC,F2,训练耗时（秒/轮，含附加步骤）
+随机森林（RF-Plain）,120棵树；Gini；max_depth=None；max_features=sqrt；min_samples_leaf=1；bootstrap=True；class_weight=None；n_jobs=1,0.9658 ± 0.0243,0.9995 ± 0.0005,0.8415 ± 0.0532,0.78 ± 0.08
+多层感知器（MLP-Plain）,12→64→32→1；ReLU；Dropout=0.1；BCEWithLogitsLoss；AdamW；learning_rate=0.001；weight_decay=0.0001；batch_size=256；最多400 epoch；early_stopping patience=50,0.6598 ± 0.0967,0.9879 ± 0.0061,0.5815 ± 0.0872,19.11 ± 5.31
